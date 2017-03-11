@@ -252,6 +252,7 @@ protected:
     float fGameTime;
 
 public:
+    float m_sun_azimuth;
     FactoryPtr<IEnvironmentRender> m_pRender;
     BOOL bNeed_re_create_env;
 

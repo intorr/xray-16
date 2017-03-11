@@ -12,6 +12,7 @@
 
 #include "xr_object.h"
 #include "xr_object_list.h"
+#include "IGame_Persistent.h"
 
 xr_token* vid_quality_token = NULL;
 
@@ -459,6 +460,20 @@ public:
 };
 
 //-----------------------------------------------------------------------
+float ps_sun_direction = 0.0f;
+class CCC_SunDirection : public CCC_Float
+{
+public:
+    CCC_SunDirection(LPCSTR N, float* V) : CCC_Float(N, V, 0.0f, 360.0f) {}
+    virtual void Execute(LPCSTR args)
+    {
+        CCC_Float::Execute(args);
+        if (g_pGamePersistent)
+            g_pGamePersistent->Environment().m_sun_azimuth = ps_sun_direction * (PI / 180.0f);
+    }
+};
+
+//-----------------------------------------------------------------------
 float ps_gamma = 1.f, ps_brightness = 1.f, ps_contrast = 1.f;
 class CCC_Gamma : public CCC_Float
 {
@@ -713,6 +728,7 @@ void CCC_Register()
 
     // Render device states
     CMD4(CCC_Integer, "r__supersample", &ps_r__Supersample, 1, 4);
+    CMD2(CCC_SunDirection, "r__sun_direction", &ps_sun_direction);
 
     CMD3(CCC_Mask, "rs_v_sync", &psDeviceFlags, rsVSync);
     // CMD3(CCC_Mask, "rs_disable_objects_as_crows",&psDeviceFlags, rsDisableObjectsAsCrows );
