@@ -12,6 +12,10 @@ xr_token qssao_mode_token[] = {{"disabled", 0}, {"default", 1}, {"hdao", 2}, {"h
 u32 ps_r_sun_shafts = 2;
 xr_token qsun_shafts_token[] = {{"st_opt_off", 0}, {"st_opt_low", 1}, {"st_opt_medium", 2}, {"st_opt_high", 3}, {0, 0}};
 
+u32 ps_r_smapsize = 2048;
+xr_token qsmapsize[] = {{"256x256", 256}, {"512x512", 512}, {"1024x1024", 1024}, {"1536x1536", 1536}, {"2048x2048", 2048},
+    {"2560x2560", 2560}, {"3072x3072", 3072}, {"4096x4096", 4096}, {"8192x8192", 8192}, {0, 0}};
+
 u32 ps_r_ssao = 3;
 xr_token qssao_token[] = {{"st_opt_off", 0}, {"st_opt_low", 1}, {"st_opt_medium", 2}, {"st_opt_high", 3},
 #if defined(USE_DX10) || defined(USE_DX11)
