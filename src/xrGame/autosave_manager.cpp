@@ -42,13 +42,11 @@ float CAutosaveManager::shedule_Scale() { return (.5f); }
 void CAutosaveManager::shedule_Update(u32 dt)
 {
     inherited::shedule_Update(dt);
-#pragma todo("Plecha to Plecha : AUTOSAVE (do not forgive to enable it in release version:-))))!!!!")
-    if (true)
-        return;
-    if (!ai().get_alife())
-        return;
+#ifdef DEBUG
+    return;
+#endif
 
-    if (last_autosave_time() + autosave_interval() >= Device.dwTimeGlobal)
+    if (!ai().get_alife() && last_autosave_time() + autosave_interval() >= Device.dwTimeGlobal)
         return;
 
     if (Device.dwPrecacheFrame || !g_actor || !ready_for_autosave() || !Actor()->g_Alive())
