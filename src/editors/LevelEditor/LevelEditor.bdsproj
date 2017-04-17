@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+      <Option Name="ProjectType">CppVCLApplication</Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{AAAB495B-2183-4455-B77F-8369D11CDCC1}</Option>
+    </Option>
+  </PersonalityInfo>
+  <CPlusPlusBuilder.Personality>
+    <BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="name" value="LevelEditor.exe"/>
+        <property category="build.node" name="packages" value="rtl;vcl;vclx;bcbsmp;elpackB6;elpproB6"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcl.lib bcbsmp.lib vclx.lib editor.lib elpackB6.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.V.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="option.6.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.2" value="_LEVEL_EDITOR"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="pch.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.He.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.10" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.11" value="Edit"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.12" value="Engine"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.13" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.14" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.15" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.16" value="..\..\..\sdk\components\AlexMX"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.17" value="..\..\..\sdk\components\ElPack\Code"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.18" value="..\..\..\sdk\components\ElPack\Code\Source"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.19" value="$(CORE_DIR)"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.20" value="../../xrEngine"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.21" value="$(MAGIC_SW_DIR)"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.22" value="$(ETOOLS_DIR)"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.23" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.6" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.7" value="..\.."/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.8" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.9" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Q.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vms.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vx.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.X.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-3.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.fff.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.k.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.1" value="..\..\..\intermediate\editors\LevelEditor\"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.ps.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.vi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wamb.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wamp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wasm.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wbbf.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wcln.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wdef.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.winl.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wnak.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wnod.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wpin.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wprc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wsig.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstl.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstu.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstv.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wucp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.xf.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.xp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.y.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.2" value="_LEVEL_EDITOR"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.3" value="_DEBUG"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.1" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.10" value="Edit"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.11" value="Engine"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.12" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.13" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.14" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.15" value="..\..\..\sdk\components\AlexMX"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.16" value="..\..\..\sdk\components\ElPack\Code"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.17" value="..\..\..\sdk\components\ElPack\Code\Source"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.18" value="$(CORE_DIR)"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.19" value="../../xrEngine"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.2" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.20" value="$(MAGIC_SW_DIR)"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.21" value="$(ETOOLS_DIR)"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.22" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.3" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.4" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.6" value="..\.."/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.7" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.8" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.9" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.1" value="..\..\..\intermediate\editors\LevelEditor\"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.1" value="Y+"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.2" value="W"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.3" value="R"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.4" value="Q"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="Edit"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.2" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.3" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.4" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.6" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.7" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.8" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.9" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.M.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.1" value="..\..\..\intermediate\editors\LevelEditor\"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.merge" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.1" value="..\..\..\intermediate\editors\LevelEditor\"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="Edit"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.2" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.3" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.4" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.6" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.7" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.8" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.9" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="Edit"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.2" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.3" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.4" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.6" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.7" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.8" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.9" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="Edit"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.10" value=".\"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.11" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.12" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.6" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.7" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.8" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.9" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.2" value="_LEVEL_EDITOR"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.3" value="_DEBUG"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.10" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.11" value="Edit"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.12" value="Engine"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.13" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.14" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.15" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.16" value="..\..\..\sdk\components\AlexMX"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.17" value="..\..\..\sdk\components\ElPack\Code"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.18" value="..\..\..\sdk\components\ElPack\Code\Source"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.19" value="$(CORE_DIR)"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.20" value="../../xrEngine"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.21" value="$(MAGIC_SW_DIR)"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.22" value="$(ETOOLS_DIR)"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.7" value="..\.."/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.8" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.9" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg" value="cpp"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg" value="&quot;&quot;"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.GD.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.1" value="..\..\..\intermediate\editors\LevelEditor"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.10" value="Edit"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.11" value="..\..\..\SDK\components\ElPack\Code"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.12" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.13" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.14" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.15" value="$(BDS)\Projects\Lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.16" value="$(COMPONENTS)\alexmx"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.17" value="$(COMPONENTS)\ElPack\Code\Source"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.18" value="$(OUT_LIB_DIR)"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="..\.."/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.7" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.8" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.9" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="Edit"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.2" value="..\..\xrEngine"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.3" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.4" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.6" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.7" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.8" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.9" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.1" value="..\..\..\lib\editors"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.1" value="..\..\..\bin\editors\"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0w32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="Memmgr.Lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.2" value="_LEVEL_EDITOR"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.3" value="_DEBUG"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.1" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.10" value="Edit"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.11" value="Engine"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.12" value="$(BDS)\Projects"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.13" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.14" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.15" value="..\..\..\sdk\components\AlexMX"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.16" value="..\..\..\sdk\components\ElPack\Code"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.17" value="..\..\..\sdk\components\ElPack\Code\Source"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.18" value="$(CORE_DIR)"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.19" value="../../xrEngine"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.2" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.20" value="$(MAGIC_SW_DIR)"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.21" value="$(ETOOLS_DIR)"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.22" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.3" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.4" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.5" value="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.6" value="..\.."/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.7" value="..\..\xrServerEntities"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.8" value="..\..\Layers\xrRender"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.9" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.arg.1" value="..\..\..\intermediate\editors\LevelEditor\"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.w2.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.zi.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="LevelEditor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LevelEditor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LevelEditor.todo" CONTAINERID="ToDo" LOCALCOMMAND="" UNITNAME="LevelEditor.todo" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LevelEditor.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="LevelEditor.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="resource.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="resource.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="BottomBar.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BottomBar" FORMNAME="fraBottomBar" DESIGNCLASS="TFrame"/>
+        <FILE FILENAME="main.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="main" FORMNAME="frmMain" DESIGNCLASS=""/>
+        <FILE FILENAME="TopBar.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TopBar" FORMNAME="fraTopBar" DESIGNCLASS="TFrame"/>
+        <FILE FILENAME="stdafx.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="stdafx" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="DOOneColor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DOOneColor" FORMNAME="frmOneColor" DESIGNCLASS=""/>
+        <FILE FILENAME="DOShuffle.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DOShuffle" FORMNAME="frmDOShuffle" DESIGNCLASS=""/>
+        <FILE FILENAME="EditLibrary.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EditLibrary" FORMNAME="frmEditLibrary" DESIGNCLASS=""/>
+        <FILE FILENAME="EditLightAnim.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EditLightAnim" FORMNAME="frmEditLightAnim" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameAIMap.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameAIMap" FORMNAME="fraAIMap" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameDetObj.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameDetObj" FORMNAME="fraDetailObject" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameGroup.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameGroup" FORMNAME="fraGroup" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameLight.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameLight" FORMNAME="fraLight" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameObject" FORMNAME="fraObject" DESIGNCLASS=""/>
+        <FILE FILENAME="FramePortal.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FramePortal" FORMNAME="fraPortal" DESIGNCLASS=""/>
+        <FILE FILENAME="FramePS.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FramePS" FORMNAME="fraPS" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameSector.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameSector" FORMNAME="fraSector" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameShape.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameShape" FORMNAME="fraShape" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameSpawn.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameSpawn" FORMNAME="fraSpawn" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameWayPoint.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameWayPoint" FORMNAME="fraWayPoint" DESIGNCLASS=""/>
+        <FILE FILENAME="LeftBar.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LeftBar" FORMNAME="fraLeftBar" DESIGNCLASS="TFrame"/>
+        <FILE FILENAME="ObjectList.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ObjectList" FORMNAME="frmObjectList" DESIGNCLASS=""/>
+        <FILE FILENAME="previewimage.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="previewimage" FORMNAME="frmPreviewImage" DESIGNCLASS=""/>
+        <FILE FILENAME="PropertiesEObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="PropertiesEObject" FORMNAME="frmPropertiesEObject" DESIGNCLASS=""/>
+        <FILE FILENAME="Splash.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Splash" FORMNAME="frmSplash" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\UI_LevelTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="UI_LevelTools" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\UI_LevelMain.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="UI_LevelMain" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\WayPoint.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="WayPoint.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapTools_Export.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapTools_Export" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\Builder.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Builder.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\BuilderCF.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BuilderCF.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\BuilderCore.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BuilderCore.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\BuilderGame.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BuilderGame.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\BuilderLTX.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BuilderLTX.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\BuilderOGF.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BuilderOGF.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\BuilderRemote.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BuilderRemote.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\Cursor3D.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Cursor3D.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\Custom2DProjector.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Custom2DProjector.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneDOTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneDOTools" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EditObjectExportLWO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EditObjectExportLWO.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ELight.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ELight.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EParticlesObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EParticlesObject.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapTools_Controls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapTools_Controls.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapTools_Generate.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapTools_Generate.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapTools_MotionSimulator.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapTools_MotionSimulator.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapTools_Pick.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapTools_Pick.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapTools_Render.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapTools_Render.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneCustomMTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneCustomMTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneCustomMToolsControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneCustomMToolsControls.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneCustomOTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneCustomOTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneCustomOToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneCustomOToolsIO.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneDummyTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneDummyTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneGlowTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneGlowTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneGroupTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneGroupTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneLightTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneLightTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneLightToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneLightToolsIO.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneObjectTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneObjectTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EScenePortalTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EScenePortalTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EScenePSTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EScenePSTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSectorTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSectorTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneShapeTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneShapeTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSoundEnvTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSoundEnvTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSoundSrcTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSoundSrcTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSpawnTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSpawnTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneWayTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneWayTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EShape.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EShape.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESound_Environment.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESound_Environment.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESound_Source.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESound_Source.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\FS2.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FS2.CPP" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\glow.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Glow.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\GroupObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="GroupObject.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\portal.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="portal.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\portalutils.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="portalutils.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\scene.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Scene.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\Scene_Tools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Scene_Tools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneIO.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneObject.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneObjectIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneObjectIO.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ScenePick.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ScenePick.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneRender.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneRender.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneSelection.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneSelection.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneSnap.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneSnap.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneSummaryInfo.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneSummaryInfo.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneUndo.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneUndo.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SceneUtil.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SceneUtil.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\sector.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="sector.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SoundManager_LE.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SoundManager_LE.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\SpawnPoint.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SpawnPoint.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneAIMapControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneAIMapControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneControlsCustom.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneControlsCustom" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneObjectControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneObjectControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EScenePortalControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EScenePortalControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EScenePSControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EScenePSControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSectorControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSectorControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneShapeControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneShapeControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSpawnControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSpawnControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneWayControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneWayControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneGlowToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneGlowToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EScenePortalToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EScenePortalToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSectorToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSectorToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSpawnToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSpawnToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneObjectToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneObjectToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\EScenePSToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EScenePSToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneShapeToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneShapeToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSoundEnvToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSoundEnvToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneSoundSrcToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneSoundSrcToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneWayToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneWayToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneGroupToolsIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneGroupToolsIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneDOTools_Pick.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneDOTools_Pick.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneDOTools_Controls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneDOTools_Controls.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneDOTools_Generate.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneDOTools_Generate.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\xrEngine\ObjectAnimator.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ObjectAnimator" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ELight_props.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ELight_props" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ELight_IO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ELight_IO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ELight_def.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="ELight_def.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneObjectToolsExportBreakable.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneObjectToolsExportBreakable" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\xrServerEntities\LevelGameDef.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LevelGameDef" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneWallmarkTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneWallmarkTools" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneWallmarkControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneWallmarkControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Engine\ShapeData.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="ShapeData.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\GeometryPartExtractor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="GeometryPartExtractor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\BuilderLODs.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BuilderLODs" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneGroupControls.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneGroupControls" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\CustomObjectLE.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CustomObjectLE" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\CustomObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CustomObject.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\CustomObject.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="CustomObject.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\CustomObjectAnimation.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CustomObjectAnimation.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\LevelPreferences.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LevelPreferences" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FrmDBXpacker.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrmDBXpacker" FORMNAME="DB_packer" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\Layers\xrRender\DetailManager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailManager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\Layers\xrRender\DetailManager_Decompress.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailManager_Decompress.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="iniStreamImpl.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="iniStreamImpl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\Layers\xrRender\DetailManager_soft.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailManager_soft.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\Layers\xrRender\DetailManager_CACHE.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailManager_CACHE.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneFogVolumeTools.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="ESceneFogVolumeTools.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\Layers\xrRender\DetailManager_VS.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailManager_VS" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\ESceneFogVolumeTools.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ESceneFogVolumeTools.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="RightForm.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RightForm" FORMNAME="frmRight" DESIGNCLASS=""/>
+        <FILE FILENAME="FrameFogVol.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FrameFogVol" FORMNAME="fraFogVol" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\xrServerEntities\gametype_chooser.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="gametype_chooser" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\GroupObjectUtils.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="GroupObjectUtils" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Edit\AppendObjectInfoForm.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AppendObjectInfoForm" FORMNAME="frmAppendObjectInfo" DESIGNCLASS=""/>
+        <FILE FILENAME="LEClipEditor.ddp" CONTAINERID="" LOCALCOMMAND="" UNITNAME="LEClipEditor.ddp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LEClipEditor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LEClipEditor" FORMNAME="ClipMaker" DESIGNCLASS=""/>
+        <FILE FILENAME="LEClipEditor.dfm" CONTAINERID="" LOCALCOMMAND="" UNITNAME="LEClipEditor.dfm" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LEClipEditor.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="LEClipEditor.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LEPhysics.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LEPhysics" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D\MgcConvexHull2D.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MgcConvexHull2D" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D\MgcAppr3DPlaneFit.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MgcAppr3DPlaneFit" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics\MgcEigen.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MgcEigen" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D\MgcVector2.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MgcVector2" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D\MgcVector3.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MgcVector3" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\Layers\xrRender\stats_manager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="stats_manager" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">2</VersionInfo>
+          <VersionInfo Name="Build">157</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1033</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.2.157</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Count">15</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item0">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;..\..\..\sdk\components\AlexMX;..\..\..\sdk\components\ElPack\Code;..\..\..\sdk\components\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item1">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;..\..\..\sdk\components\AlexMX;..\..\..\sdk\components\ElPack\Code;..\..\..\sdk\components\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item2">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item3">..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item4">$(VC_INCLUDE);..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item5">..\..;..\..\xrServerEntities;..\..\Layers\xrRender;..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item6">..\..\xrServerEntities;..\..\Layers\xrRender;..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item7">..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item8">..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item9">$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item10">$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrEngine/xrRender;$(MAGIC_SW_DIR)</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item11">$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrEngine/xrRender</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item12">Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(DXSDK_DIR)\Include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrEngine/xrRender</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item13">Edit;H:\RAD\Borland\CBuilder6\Projects;"R:\SDK\Microsoft DirectX 9.0 SDK (April 2005)\Include"Edit;Engine;r:\borland\components6\alexmx;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;P:\xrCore;..\ECore;..\ECore\Editor;..\ECore\Engine;..\ECore\Engine\blenders;..\ECore\Engine\visuals;..\xrEProps;P:\xrSound</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item14">H:\RAD\Borland\CBuilder6\Projects;R:\SDK\Microsoft DirectX 9.0 SDK (April 2005)\Include;Engine\Game;Edit;Engine;r:\borland\components6\alexmx;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;P:\xrCore;..\ECore;..\ECore\Editor;..\ECore\Engine;..\ECore\Engine\blenders;..\ECore\Engine\visuals;..\xrEProps;P:\xrSound</HistoryLists_hlIncludePath>
+        </HistoryLists_hlIncludePath>
+        <HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Count">15</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item0">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;$(OUT_LIB_DIR)</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item1">..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;$(OUT_LIB_DIR)</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item2">..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item3">..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries;X:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item4">..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries;X:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item5">..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item6">..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item7">..\..\xrServerEntities;..\..\Layers\xrRender;..\..\..\SDK\components\ElPack\Code;..\..\xrEngine\xrRender;..\..\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item8">..\..\xrEngine\xrRender;..\..\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item9">..\..\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item10">..\..\xrEngine\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item11">Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item12">$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item13">H:\RAD\Borland\CBuilder6\Projects;Edit;Engine;C:\Rad\Borland\CBuilder6\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;r:\borland\components6\alexmx;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;..\lib\dx;..\lib;x:\;..\ECore;..\ECore\Editor</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item14">H:\RAD\Borland\CBuilder6\Projects;Engine\Game;Edit;Engine;C:\Rad\Borland\CBuilder6\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;r:\borland\components6\alexmx;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;..\lib\dx;..\lib;x:\;..\ECore;..\ECore\Editor</HistoryLists_hlLibraryPath>
+        </HistoryLists_hlLibraryPath>
+        <HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Count">3</HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Item0">..\ECore\Editor\</HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Item1">X:\stalker_addon\sources\engine\editors\ECore\Editor\</HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Item2">c:\rad\borland\cbuilder5\source\vcl;R:\Borland\Components6\AlexMX\</HistoryLists_hlDebugSourcePath>
+        </HistoryLists_hlDebugSourcePath>
+        <HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Count">2</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item0">_EDITOR;_LEVEL_EDITOR;_DEBUG</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item1">_EDITOR;_LEVEL_EDITOR</HistoryLists_hlConditionals>
+        </HistoryLists_hlConditionals>
+        <HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Count">4</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item0">..\..\..\intermediate\editors\LevelEditor</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item1">x:\intermediate_ed\le</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item2">$(OUTPUT_INTERMEDIATE_DIR)\le</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item3">intermediate</HistoryLists_hlIntOutputDir>
+        </HistoryLists_hlIntOutputDir>
+        <HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Count">6</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item0">..\..\..\bin\editors\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item1">$(OUTPUT_BINARIES_DIR)\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item2">x:\stalker_addon\binaries\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item3">x:\binaries\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item4">x:\binaries</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item5">x:\</HistoryLists_hlFinalOutputDir>
+        </HistoryLists_hlFinalOutputDir>
+        <HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Count">5</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item0">..\..\..\lib\editors</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item1">x:\stalker_addon\libraries</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item2">$(OUTPUT_LIBRARIES_DIR)</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item3">$(OUTPUT_LIBRARIES_DIR)\</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item4">x:\libraries</HistoryLists_hIBPIOutputDir>
+        </HistoryLists_hIBPIOutputDir>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs">..\ECore\Editor\</Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams">-wf x:\stalker_addon\resources -editor</Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication">x:\STALKER_ADDON\binaries\LevelEditor.exe</Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+    <Source>
+      <Source Name="MainSource">LevelEditor.cpp</Source>
+    </Source>
+  </CPlusPlusBuilder.Personality>
+</BorlandProject>

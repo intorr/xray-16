@@ -1,5 +1,9 @@
 # exclude binaries and temporary files
 ipch/
+__history/
+__astcache/
+*.*.local
+*.stat
 
 # User-specific files
 *.suo

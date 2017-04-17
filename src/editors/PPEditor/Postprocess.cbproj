@@ -1,0 +1,407 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{BE289608-C053-46DA-9176-2C6DF59783C5}</ProjectGuid>
+        <ProjectType>CppVCLApplication</ProjectType>
+        <MainSource>Postprocess.cpp</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <ProjectVersion>18.2</ProjectVersion>
+        <FrameworkType>None</FrameworkType>
+        <Base>True</Base>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='iOSDevice64' and '$(Base)'=='true') or '$(Base_iOSDevice64)'!=''">
+        <Base_iOSDevice64>true</Base_iOSDevice64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='iOSDevice64' and '$(Cfg_1)'=='true') or '$(Cfg_1_iOSDevice64)'!=''">
+        <Cfg_1_iOSDevice64>true</Cfg_1_iOSDevice64>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win64)'!=''">
+        <Cfg_1_Win64>true</Cfg_1_Win64>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='iOSDevice64' and '$(Cfg_2)'=='true') or '$(Cfg_2_iOSDevice64)'!=''">
+        <Cfg_2_iOSDevice64>true</Cfg_2_iOSDevice64>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win64)'!=''">
+        <Cfg_2_Win64>true</Cfg_2_Win64>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
+        <SanitizedProjectName>Postprocess</SanitizedProjectName>
+        <VerInfo_Locale>1058</VerInfo_Locale>
+        <IncludePath>..\..\xrGame\;..\..\xrEngine\;..\..\xrGame;..\..\xrEngine;$(IncludePath)</IncludePath>
+        <PackageImports>editor.bpi;vcl.bpi;rtl.bpi;dbrtl.bpi;adortl.bpi;vcldb.bpi;vclx.bpi;bdertl.bpi;vcldbx.bpi;ibxpress.bpi;dsnap.bpi;dsnapcon.bpi;dsnap.bpi;teeui.bpi;teedb.bpi;tee.bpi;dss.bpi;dsnapcon.bpi;bcbsmp.bpi;$(PackageImports)</PackageImports>
+        <BCC_PCHCache>true</BCC_PCHCache>
+        <DCC_UnitSearchPath>..\..\xrEngine;..\..\xrGame;.\;$(BDS)\lib;$(BDS)\lib\obj;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+        <ILINK_AppType>Windows</ILINK_AppType>
+        <DCC_ResourcePath>..\..\xrEngine;..\..\xrGame;$(DCC_ResourcePath)</DCC_ResourcePath>
+        <BRCC_OutputDir>..\..\..\intermediate\editors\PPEditor\</BRCC_OutputDir>
+        <BCC_IncludePath>..\..\xrGame;..\..\xrEngine;$(BDS)\include;$(BDS)\include\vcl;$(CORE_DIR);..\..\..\sdk\components\AlexMX;$(BCC_IncludePath)</BCC_IncludePath>
+        <BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+        <BRCC_IncludePath>..\..\xrGame;..\..\xrEngine;$(BDS)\include;$(BDS)\include\vcl;$(CORE_DIR);..\..\..\sdk\components\AlexMX;$(BRCC_IncludePath)</BRCC_IncludePath>
+        <UsePackages>true</UsePackages>
+        <DCC_ObjOutput>..\..\..\intermediate\editors\PPEditor\</DCC_ObjOutput>
+        <DCC_IncludePath>..\..\xrEngine;..\..\xrGame;.\;$(BDS)\lib;$(BDS)\lib\obj;$(DCC_IncludePath)</DCC_IncludePath>
+        <TASM_IncludePath>..\..\xrGame;..\..\xrEngine;$(BDS)\include;$(BDS)\include\vcl;$(CORE_DIR);..\..\..\sdk\components\AlexMX;$(TASM_IncludePath)</TASM_IncludePath>
+        <BCC_GenerateMultithreaded>true</BCC_GenerateMultithreaded>
+        <AllPackageLibs>vcl.lib;rtl.lib;bcbsmp.lib;vclx.lib;editor.lib;editorB.lib</AllPackageLibs>
+        <DCC_DcuOutput>..\..\..\intermediate\editors\PPEditor\</DCC_DcuOutput>
+        <FinalOutputDir>..\..\..\bin\editors\</FinalOutputDir>
+        <TASM_AdditionalSwitches> /w2 ..\..\..\intermediate\editors\PPEditor\</TASM_AdditionalSwitches>
+        <TASM_Debugging>None</TASM_Debugging>
+        <ILINK_IntermediateOutputPath>..\..\..\intermediate\editors\PPEditor</ILINK_IntermediateOutputPath>
+        <ILINK_ObjectSearchPath>..\..\xrEngine;..\..\xrGame;$(ILINK_ObjectSearchPath)</ILINK_ObjectSearchPath>
+        <ILINK_LibraryPath>..\..\xrGame\;..\..\xrEngine\;..\..\..\sdk\components\AlexMX;..\..\xrGame;..\..\xrEngine;$(BDS)\Projects\Lib;$(BDS)\lib\obj;$(BDS)\lib;..\..\..\lib\editors;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <Multithreaded>true</Multithreaded>
+        <DCC_ObjPath>..\..\xrEngine;..\..\xrGame;$(DCC_ObjPath)</DCC_ObjPath>
+        <BCC_GenerateWindowsApp>true</BCC_GenerateWindowsApp>
+        <BCC_OutputDir>..\..\..\intermediate\editors\PPEditor\</BCC_OutputDir>
+        <DCC_AdditionalSwitches> -M</DCC_AdditionalSwitches>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_iOSDevice64)'!=''">
+        <BCC_Defines>NO_STRICT;_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline;$(BCC_Defines)</BCC_Defines>
+        <BCC_UserSuppliedOptions> -a4 -Vmm -Q -6 -ps -Vx -xp -Ve -xf</BCC_UserSuppliedOptions>
+        <TASM_Defines>_EDITOR _PP_EDITOR_ ENGINE_API IC ICF __forceinline;$(TASM_Defines)</TASM_Defines>
+        <BRCC_Defines>_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline;$(BRCC_Defines)</BRCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <BT_BuildType>Debug</BT_BuildType>
+        <OutputExt>exe</OutputExt>
+        <BCC_UserSuppliedOptions> -a4 -Vmm -Q -6 -ps -Vx -xp -Ve -xf</BCC_UserSuppliedOptions>
+        <BCC_Defines>_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline;$(BCC_Defines)</BCC_Defines>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Icon_MainIcon>Postprocess_Icon.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <Debugger_RunParams>-wf x:\stalker_addon\resources</Debugger_RunParams>
+        <Debugger_HostApplication>x:\binaries\Postprocess.exe</Debugger_HostApplication>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(ModuleName)</VerInfo_Keys>
+        <BRCC_Defines>_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline;$(BRCC_Defines)</BRCC_Defines>
+        <TASM_Defines>_EDITOR _PP_EDITOR_ ENGINE_API IC ICF __forceinline;$(TASM_Defines)</TASM_Defines>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <Icon_MainIcon>Postprocess_Icon.ico</Icon_MainIcon>
+        <BCC_Defines>_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline;$(BCC_Defines)</BCC_Defines>
+        <TASM_Defines>_EDITOR _PP_EDITOR_ ENGINE_API IC ICF __forceinline;$(TASM_Defines)</TASM_Defines>
+        <BRCC_Defines>_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline;$(BRCC_Defines)</BRCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <ILINK_LibraryPath>$(BDS)\lib\debug;$(ILINK_LibraryPath);$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <DCC_Define>DEBUG;$(DCC_Define);$(DCC_Define)</DCC_Define>
+        <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+        <IntermediateOutputDir>Debug_Build</IntermediateOutputDir>
+        <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+        <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+        <ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+        <BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+        <TASM_Debugging>Full</TASM_Debugging>
+        <DCC_AdditionalSwitches> -M -V</DCC_AdditionalSwitches>
+        <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+        <BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_iOSDevice64)'!=''">
+        <BCC_UserSuppliedOptions> -a4 -Vmm -Q -6 -ps -Vx -xp -Ve -xf -k</BCC_UserSuppliedOptions>
+        <BCC_Defines>_DEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+        <BT_BuildType>Debug</BT_BuildType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <BCC_Defines>_DEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+        <BCC_UserSuppliedOptions> -a4 -Vmm -Q -6 -ps -Vx -xp -Ve -xf -k</BCC_UserSuppliedOptions>
+        <LinkPackageStatics>editorB.lib</LinkPackageStatics>
+        <LinkPackageImports>vcl.bpi;rtl.bpi;bcbsmp.bpi;vclx.bpi;editor.bpi</LinkPackageImports>
+        <AppEnableHighDPI>true</AppEnableHighDPI>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
+        <BCC_Defines>_DEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <IntermediateOutputDir>Release_Build</IntermediateOutputDir>
+        <DCC_AdditionalSwitches> -M -$O+</DCC_AdditionalSwitches>
+        <ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath);$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_iOSDevice64)'!=''">
+        <BCC_UserSuppliedOptions> -a4 -Vmm -Q -6 -ps -Vx -xp -Ve -xf -r</BCC_UserSuppliedOptions>
+        <BCC_Defines>NDEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <BCC_Defines>NDEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+        <BCC_UserSuppliedOptions> -a4 -Vmm -Q -6 -ps -Vx -xp -Ve -xf -r</BCC_UserSuppliedOptions>
+        <AppEnableHighDPI>true</AppEnableHighDPI>
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
+        <BCC_Defines>NDEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="base.h">
+            <BuildOrder>3</BuildOrder>
+            <BuildOrder>10</BuildOrder>
+        </None>
+        <CppCompile Include="color.cpp">
+            <BuildOrder>6</BuildOrder>
+            <Form>AddColorForm</Form>
+            <DependentOn>color.h</DependentOn>
+            <BuildOrder>1</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="float_constructor.cpp">
+            <Form>frmConstructor</Form>
+            <DependentOn>float_constructor.h</DependentOn>
+            <BuildOrder>5</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="float_param.cpp">
+            <BuildOrder>9</BuildOrder>
+            <Form>frmTimeConstructor</Form>
+            <DependentOn>float_param.h</DependentOn>
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="interp.cpp">
+            <BuildOrder>3</BuildOrder>
+            <BuildOrder>10</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="main.cpp">
+            <BuildOrder>8</BuildOrder>
+            <Form>MainForm</Form>
+            <DependentOn>main.h</DependentOn>
+            <BuildOrder>2</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Postprocess.cpp">
+            <BuildOrder>-1</BuildOrder>
+            <BuildOrder>1</BuildOrder>
+        </CppCompile>
+        <ResFiles Include="Postprocess.res">
+            <BuildOrder>-1</BuildOrder>
+            <BuildOrder>0</BuildOrder>
+        </ResFiles>
+        <CppCompile Include="single_param.cpp">
+            <BuildOrder>7</BuildOrder>
+            <Form>AddFloatForm</Form>
+            <DependentOn>single_param.h</DependentOn>
+            <BuildOrder>0</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\xrEngine\Envelope.cpp">
+            <BuildOrder>8</BuildOrder>
+            <BuildOrder>2</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\xrGame\PostprocessAnimator.cpp">
+            <BuildOrder>9</BuildOrder>
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
+        <FormResources Include="main.dfm"/>
+        <FormResources Include="float_param.dfm"/>
+        <FormResources Include="float_constructor.dfm"/>
+        <FormResources Include="color.dfm"/>
+        <FormResources Include="single_param.dfm"/>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+    <ProjectExtensions>
+        <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+        <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+        <BorlandProject>
+            <CPlusPlusBuilder.Personality>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1058</VersionInfo>
+                    <VersionInfo Name="CodePage">1251</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Count">14</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item0">..\..\xrGame;..\..\xrEngine;$(BCB)\include;$(BCB)\include\vcl;$(CORE_DIR);..\..\..\sdk\components\AlexMX</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item1">..\..\xrGame;..\..\xrEngine;$(BCB)\include;$(BCB)\include\vcl;$(CORE_DIR);$(COMPONENTS)\AlexMX</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item2">..\..\xrGame;..\..\xrEngine;$(BCB)\include;$(BCB)\include\vcl;$(CORE_DIR);$(COMPONENTS)\AlexMX;$(3DA_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item3">$(BCB)\include;$(BCB)\include\vcl;$(CORE_DIR);$(COMPONENTS)\AlexMX;$(3DA_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item4">$(BCB)\include;$(BCB)\include\vcl;$(CORE_DIR);$(COMPONENTS)\AlexMX</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item5">$(BCB)\include;$(BCB)\include\vcl;$(CORE_DIR);X:\stalker_addon\sources\sdk\components\AlexMX</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item6">$(BCB)\include;$(BCB)\include\vcl;$(CORE_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item7">..;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item8">..\..\components\AlexMX;..;Postprocess;$(BCB)\include;$(BCB)\include\vcl;e:\projects\xrcore</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item9">..\RX\Units;..;Postprocess;$(BCB)\include;$(BCB)\include\vcl;e:\projects\xrcore</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item10">..\RX\Units;..;Postprocess;$(BCB)\include;$(BCB)\include\vcl;Y:\postprocess\core_hdr;Y:\postprocess</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item11">..\RX\Units;..;Postprocess;$(BCB)\include;$(BCB)\include\vcl;Y:\postprocess\core_hdr</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item12">Y:\postprocess\core_hdr;..\RX\Units;..;Postprocess;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item13">..\RX\Units;..;Postprocess;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath>
+                </HistoryLists_hlIncludePath>
+                <HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Count">11</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item0">..\..\..\sdk\components\AlexMX;..\..\xrGame;..\..\xrEngine;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\..\..\lib\editors\</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item1">..\..\..\SDK\components\AlexMX;..\..\xrGame;..\..\xrEngine;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;x:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item2">..\..\..\SDK\components\AlexMX;..\..\xrGame;..\..\xrEngine;$(COMPONENTS)\AlexMX;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;x:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item3">$(COMPONENTS)\AlexMX;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;x:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item4">..\..\..\SDK\components\AlexMX;..\..\xrGame;..\..\xrEngine;$(COMPONENTS)\AlexMX;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item5">$(COMPONENTS)\AlexMX;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item6">..\..\..\sdk\components\AlexMX;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item7">$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item8">..\..\components\AlexMX;Y:\postprocess;..;Postprocess;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item9">Y:\postprocess;..\RX\Units;..;Postprocess;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item10">..\RX\Units;..;Postprocess;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath>
+                </HistoryLists_hlLibraryPath>
+                <HistoryLists_hlDebugSourcePath>
+                    <HistoryLists_hlDebugSourcePath Name="Count">1</HistoryLists_hlDebugSourcePath>
+                    <HistoryLists_hlDebugSourcePath Name="Item0">$(BCB)\source\vcl</HistoryLists_hlDebugSourcePath>
+                </HistoryLists_hlDebugSourcePath>
+                <HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Count">21</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item0">_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item1">_DEBUG;_EDITOR;_PP_EDITOR_;ENGINE_API;IC;ICF;__forceinline</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item2">_DEBUG;_EDITOR;_PP_EDITOR_;ENGINE_API;IC;XRCORE_API;ICF;__forceinline</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item3">_DEBUG;_EDITOR;_PP_EDITOR_;ENGINE_API;IC;XRCORE_API;ICF</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item4">_DEBUG;_EDITOR;_PP_EDITOR_;ENGINE_API;IC;XRCORE_API;ICF;__BORLANDC__</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item5">_DEBUG;_EDITOR;_PP_EDITOR_;ENGINE_API;IC;XRCORE_API</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item6">_DEBUG;_EDITOR;_PP_EDITOR_;ENGINE_API;IC</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item7">_DEBUG;_EDITOR;_PP_EDITOR_;ENGINE_API</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item8">_DEBUG;_EDITOR;_PP_EDITOR_</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item9">_DEBUG;_EDITOR</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item10">_DEBUG;_EDITOR;_CPPUNWIND</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item11">_DEBUG;_CPPUNWIND;_EDITOR</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item12">_DEBUG</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item13">_DEBUG;_CPPUNWIND</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item14">_DEBUG,_CPPUNWIND</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item15">_DEBUG,_EDITOR</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item16">DEBUG,_EDITOR</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item17">_DEBUG,_EDITOR,FORCE_NO_EXCEPTIONS</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item18">_DEBUG,_EDITOR,_CPPUNWIND,FORCE_NO_EXCEPTIONS</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item19">_DEBUG,_EDITOR,_CPPUNWIND</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item20">_DEBUG,__BORLANDC__</HistoryLists_hlConditionals>
+                </HistoryLists_hlConditionals>
+                <HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Count">2</HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Item0">..\..\..\intermediate\editors\PPEditor\</HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Item1">x:\intermediate_ed\ppe</HistoryLists_hlIntOutputDir>
+                </HistoryLists_hlIntOutputDir>
+                <HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Count">5</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item0">..\..\..\bin\editors\</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item1">x:\stalker_addon\binaries\</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item2">x:\binaries\</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item3">x:\binaries</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item4">x:\</HistoryLists_hlFinalOutputDir>
+                </HistoryLists_hlFinalOutputDir>
+                <Debugging>
+                    <Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging>
+                </Debugging>
+                <Parameters>
+                    <Parameters Name="RunParams">-wf x:\stalker_addon\resources</Parameters>
+                    <Parameters Name="Launcher"/>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="DebugCWD"/>
+                    <Parameters Name="HostApplication">x:\binaries\Postprocess.exe</Parameters>
+                    <Parameters Name="RemoteHost"/>
+                    <Parameters Name="RemotePath"/>
+                    <Parameters Name="RemoteParams"/>
+                    <Parameters Name="RemoteLauncher"/>
+                    <Parameters Name="UseRemoteLauncher">False</Parameters>
+                    <Parameters Name="RemoteCWD"/>
+                    <Parameters Name="RemoteDebug">False</Parameters>
+                    <Parameters Name="Debug Symbols Search Path"/>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                </Parameters>
+                <Source>
+                    <Source Name="MainSource">Postprocess.cpp</Source>
+                </Source>
+                <ProjectProperties>
+                    <ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+                    <ProjectProperties Name="ManagePaths">True</ProjectProperties>
+                    <ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+                    <ProjectProperties Name="IndexFiles">False</ProjectProperties>
+                </ProjectProperties>
+            </CPlusPlusBuilder.Personality>
+            <Platforms>
+                <Platform value="iOSDevice64">False</Platform>
+                <Platform value="OSX32">False</Platform>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

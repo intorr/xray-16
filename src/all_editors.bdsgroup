@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{B3618C11-B95F-4765-B466-BD2547C4223A}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="xrCoreB.dll">xrCore\xrCoreB.bdsproj</Projects>
+      <Projects Name="xrSoundB.dll">xrSound\xrSoundB.bdsproj</Projects>
+      <Projects Name="xrParticlesB.dll">xrParticles\xrParticlesB.bdsproj</Projects>
+      <Projects Name="xrEPropsB.dll">editors\xrEProps\xrEPropsB.bdsproj</Projects>
+      <Projects Name="xrECoreB.dll">editors\ECore\xrECoreB.bdsproj</Projects>
+      <Projects Name="ActorEditor.exe">editors\ActorEditor\ActorEditor.bdsproj</Projects>
+      <Projects Name="ParticleEditor.exe">editors\ParticleEditor\ParticleEditor.bdsproj</Projects>
+      <Projects Name="Postprocess.exe">editors\PPEditor\Postprocess.bdsproj</Projects>
+      <Projects Name="ShaderEditor.exe">editors\ShaderEditor\ShaderEditor.bdsproj</Projects>
+      <Projects Name="LevelEditor.exe">editors\LevelEditor\LevelEditor.bdsproj</Projects>
+      <Projects Name="Targets">xrCoreB.dll xrSoundB.dll xrParticlesB.dll xrEPropsB.dll xrECoreB.dll ActorEditor.exe ParticleEditor.exe Postprocess.exe ShaderEditor.exe LevelEditor.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

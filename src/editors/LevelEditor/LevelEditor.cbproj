@@ -1,0 +1,1067 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AAAB495B-2183-4455-B77F-8369D11CDCC1}</ProjectGuid>
+        <ProjectType>CppVCLApplication</ProjectType>
+        <MainSource>LevelEditor.cpp</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <ProjectVersion>18.2</ProjectVersion>
+        <FrameworkType>None</FrameworkType>
+        <Base>True</Base>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='iOSDevice64' and '$(Base)'=='true') or '$(Base_iOSDevice64)'!=''">
+        <Base_iOSDevice64>true</Base_iOSDevice64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='iOSDevice64' and '$(Cfg_1)'=='true') or '$(Cfg_1_iOSDevice64)'!=''">
+        <Cfg_1_iOSDevice64>true</Cfg_1_iOSDevice64>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win64)'!=''">
+        <Cfg_1_Win64>true</Cfg_1_Win64>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='iOSDevice64' and '$(Cfg_2)'=='true') or '$(Cfg_2_iOSDevice64)'!=''">
+        <Cfg_2_iOSDevice64>true</Cfg_2_iOSDevice64>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win64)'!=''">
+        <Cfg_2_Win64>true</Cfg_2_Win64>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <VerInfo_Build>157</VerInfo_Build>
+        <SanitizedProjectName>LevelEditor</SanitizedProjectName>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.2.157;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Release>2</VerInfo_Release>
+        <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
+        <IncludePath>..\..\Layers\xrRender\;Engine\;Edit\;..\..\xrEngine\;..\..\xrServerEntities\;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\Layers\xrRender;Edit;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\xrServerEntities;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;Engine;..\..\xrEngine;$(IncludePath)</IncludePath>
+        <PackageImports>rtl.bpi;vcl.bpi;vclx.bpi;bcbsmp.bpi;elpackB6.bpi;elpproB6.bpi;$(PackageImports)</PackageImports>
+        <ILINK_AppType>Windows</ILINK_AppType>
+        <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+        <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+        <DCC_ResourcePath>Edit;..\..\xrEngine;..\..\xrServerEntities;..\..\Layers\xrRender;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;$(DCC_ResourcePath)</DCC_ResourcePath>
+        <DCC_UnitSearchPath>Edit;..\..\xrEngine;..\..\xrServerEntities;..\..\Layers\xrRender;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;.\;$(BDS)\lib;$(BDS)\lib\obj;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <BRCC_OutputDir>..\..\..\intermediate\editors\LevelEditor\</BRCC_OutputDir>
+        <BCC_IncludePath>..\..\xrEngine;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BDS)\Projects;$(BDS)\include\vcl;$(BDS)\include;..\..\..\sdk\components\AlexMX;..\..\..\sdk\components\ElPack\Code;..\..\..\sdk\components\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR);$(BCC_IncludePath)</BCC_IncludePath>
+        <BRCC_IncludePath>..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BDS)\Projects;$(BDS)\include\vcl;$(BDS)\include;..\..\..\sdk\components\AlexMX;..\..\..\sdk\components\ElPack\Code;..\..\..\sdk\components\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR);$(BRCC_IncludePath)</BRCC_IncludePath>
+        <ILINK_GenerateDRC>true</ILINK_GenerateDRC>
+        <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+        <DCC_ObjOutput>..\..\..\intermediate\editors\LevelEditor\</DCC_ObjOutput>
+        <BCC_PCHCache>true</BCC_PCHCache>
+        <UsePackages>true</UsePackages>
+        <DCC_IncludePath>Edit;..\..\xrEngine;..\..\xrServerEntities;..\..\Layers\xrRender;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;.\;$(BDS)\lib;$(BDS)\lib\obj;$(DCC_IncludePath)</DCC_IncludePath>
+        <TASM_IncludePath>..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BDS)\Projects;$(BDS)\include\vcl;$(BDS)\include;..\..\..\sdk\components\AlexMX;..\..\..\sdk\components\ElPack\Code;..\..\..\sdk\components\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR);$(TASM_IncludePath)</TASM_IncludePath>
+        <BCC_GenerateMultithreaded>true</BCC_GenerateMultithreaded>
+        <AllPackageLibs>rtl.lib;vcl.lib;bcbsmp.lib;vclx.lib;editor.lib;elpackB6.lib</AllPackageLibs>
+        <BCC_DisableOptimizations>true</BCC_DisableOptimizations>
+        <DCC_DcuOutput>..\..\..\intermediate\editors\LevelEditor\</DCC_DcuOutput>
+        <FinalOutputDir>..\..\..\bin\editors\</FinalOutputDir>
+        <TASM_AdditionalSwitches> /w2 ..\..\..\intermediate\editors\LevelEditor\</TASM_AdditionalSwitches>
+        <TASM_Debugging>Full</TASM_Debugging>
+        <ILINK_BpiLibOutputDir>..\..\..\lib\editors</ILINK_BpiLibOutputDir>
+        <ILINK_IntermediateOutputPath>..\..\..\intermediate\editors\LevelEditor</ILINK_IntermediateOutputPath>
+        <ILINK_ObjectSearchPath>Edit;..\..\xrEngine;..\..\xrServerEntities;..\..\Layers\xrRender;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;$(ILINK_ObjectSearchPath)</ILINK_ObjectSearchPath>
+        <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+        <BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+        <Multithreaded>true</Multithreaded>
+        <DCC_ObjPath>Edit;..\..\xrEngine;..\..\xrServerEntities;..\..\Layers\xrRender;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;$(DCC_ObjPath)</DCC_ObjPath>
+        <ILINK_LibraryPath>..\..\Layers\xrRender\;Engine\;Edit\;..\..\xrEngine\;..\..\xrServerEntities\;Engine;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BDS)\Projects;$(BDS)\lib;$(BDS)\lib\obj;$(BDS)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;$(OUT_LIB_DIR);$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <BCC_GenerateWindowsApp>true</BCC_GenerateWindowsApp>
+        <BCC_OutputDir>..\..\..\intermediate\editors\LevelEditor\</BCC_OutputDir>
+        <DCC_AdditionalSwitches> -M</DCC_AdditionalSwitches>
+        <DynamicRTL>true</DynamicRTL>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_iOSDevice64)'!=''">
+        <BCC_Defines>NO_STRICT;_EDITOR;_LEVEL_EDITOR;$(BCC_Defines)</BCC_Defines>
+        <BCC_UserSuppliedOptions> -a4 -wpin -wdef -wstl -wamp -wbbf -Q -6 -wcln -wucp -ps -wstv -wnak -Vms -ff -Vx -wnod -wamb -wstu -wasm -r- -xp -k -wprc -Ve -wsig -xf</BCC_UserSuppliedOptions>
+        <TASM_Defines>_EDITOR _LEVEL_EDITOR _DEBUG;$(TASM_Defines)</TASM_Defines>
+        <BRCC_Defines>_EDITOR;_LEVEL_EDITOR;_DEBUG;$(BRCC_Defines)</BRCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <Icon_MainIcon>LevelEditor_Icon.ico</Icon_MainIcon>
+        <BCC_Defines>_EDITOR;_LEVEL_EDITOR;$(BCC_Defines)</BCC_Defines>
+        <TASM_Defines>_EDITOR _LEVEL_EDITOR _DEBUG;$(TASM_Defines)</TASM_Defines>
+        <BRCC_Defines>_EDITOR;_LEVEL_EDITOR;_DEBUG;$(BRCC_Defines)</BRCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <BT_BuildType>Debug</BT_BuildType>
+        <OutputExt>exe</OutputExt>
+        <BCC_UserSuppliedOptions> -a4 -wpin -wdef -wstl -wamp -wbbf -Q -6 -wcln -wucp -ps -wstv -wnak -Vms -ff -Vx -wnod -wamb -wstu -wasm -r- -xp -k -wprc -Ve -wsig -xf</BCC_UserSuppliedOptions>
+        <BCC_Defines>_EDITOR;_LEVEL_EDITOR;$(BCC_Defines)</BCC_Defines>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <Icon_MainIcon>LevelEditor_Icon.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <Debugger_RunParams>-wf x:\stalker_addon\resources -editor</Debugger_RunParams>
+        <Debugger_HostApplication>x:\STALKER_ADDON\binaries\LevelEditor.exe</Debugger_HostApplication>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(ModuleName)</VerInfo_Keys>
+        <BRCC_Defines>_EDITOR;_LEVEL_EDITOR;_DEBUG;$(BRCC_Defines)</BRCC_Defines>
+        <TASM_Defines>_EDITOR _LEVEL_EDITOR _DEBUG;$(TASM_Defines)</TASM_Defines>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <ILINK_LibraryPath>$(BDS)\lib\debug;$(ILINK_LibraryPath);$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <IntermediateOutputDir>Debug_Build</IntermediateOutputDir>
+        <DCC_Define>DEBUG;$(DCC_Define);$(DCC_Define)</DCC_Define>
+        <DCC_AdditionalSwitches> -M -V</DCC_AdditionalSwitches>
+        <ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+        <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_iOSDevice64)'!=''">
+        <BCC_Defines>_DEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+        <BT_BuildType>Debug</BT_BuildType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
+        <BCC_Defines>_DEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+        <BCC_Defines>_DEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+        <AppEnableHighDPI>true</AppEnableHighDPI>
+        <LinkPackageStatics>editor.lib</LinkPackageStatics>
+        <LinkPackageImports>rtl.bpi;vcl.bpi;bcbsmp.bpi;vclx.bpi;elpackB6.bpi</LinkPackageImports>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+        <IntermediateOutputDir>Release_Build</IntermediateOutputDir>
+        <DCC_AdditionalSwitches> -M -$O+</DCC_AdditionalSwitches>
+        <TASM_Debugging>None</TASM_Debugging>
+        <ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath);$(ILINK_LibraryPath)</ILINK_LibraryPath>
+        <BCC_InlineFunctionExpansion>true</BCC_InlineFunctionExpansion>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_iOSDevice64)'!=''">
+        <BCC_UserSuppliedOptions> -a4 -wpin -wdef -wstl -wamp -wbbf -Q -6 -wcln -wucp -ps -wstv -wnak -Vms -ff -Vx -wnod -wamb -wstu -wasm -r- -xp -k -wprc -Ve -wsig -xf -r</BCC_UserSuppliedOptions>
+        <BCC_Defines>NDEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
+        <BCC_Defines>NDEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <BCC_Defines>NDEBUG;$(BCC_Defines);$(BCC_Defines)</BCC_Defines>
+        <BCC_UserSuppliedOptions> -a4 -wpin -wdef -wstl -wamp -wbbf -Q -6 -wcln -wucp -ps -wstv -wnak -Vms -ff -Vx -wnod -wamb -wstu -wasm -r- -xp -k -wprc -Ve -wsig -xf -r</BCC_UserSuppliedOptions>
+        <AppEnableHighDPI>true</AppEnableHighDPI>
+        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
+    </PropertyGroup>
+    <ItemGroup>
+        <CppCompile Include="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D\MgcAppr3DPlaneFit.cpp">
+            <BuildOrder>53</BuildOrder>
+            <BuildOrder>152</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D\MgcConvexHull2D.cpp">
+            <BuildOrder>56</BuildOrder>
+            <BuildOrder>151</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D\MgcVector2.cpp">
+            <BuildOrder>49</BuildOrder>
+            <BuildOrder>154</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D\MgcVector3.cpp">
+            <BuildOrder>52</BuildOrder>
+            <BuildOrder>155</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics\MgcEigen.cpp">
+            <BuildOrder>50</BuildOrder>
+            <BuildOrder>153</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="BottomBar.cpp">
+            <BuildOrder>4</BuildOrder>
+            <Form>fraBottomBar</Form>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>BottomBar.h</DependentOn>
+            <BuildOrder>103</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="DOOneColor.cpp">
+            <BuildOrder>8</BuildOrder>
+            <Form>frmOneColor</Form>
+            <DependentOn>DOOneColor.h</DependentOn>
+            <BuildOrder>101</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="DOShuffle.cpp">
+            <BuildOrder>9</BuildOrder>
+            <Form>frmDOShuffle</Form>
+            <DependentOn>DOShuffle.h</DependentOn>
+            <BuildOrder>108</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="EditLibrary.cpp">
+            <BuildOrder>115</BuildOrder>
+            <Form>frmEditLibrary</Form>
+            <DependentOn>EditLibrary.h</DependentOn>
+            <BuildOrder>10</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="EditLightAnim.cpp">
+            <BuildOrder>114</BuildOrder>
+            <Form>frmEditLightAnim</Form>
+            <DependentOn>EditLightAnim.h</DependentOn>
+            <BuildOrder>11</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\AppendObjectInfoForm.cpp">
+            <BuildOrder>42</BuildOrder>
+            <Form>frmAppendObjectInfo</Form>
+            <DependentOn>Edit\AppendObjectInfoForm.h</DependentOn>
+            <BuildOrder>145</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\Builder.cpp">
+            <BuildOrder>97</BuildOrder>
+            <BuildOrder>32</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\BuilderCF.cpp">
+            <BuildOrder>96</BuildOrder>
+            <BuildOrder>33</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\BuilderCore.cpp">
+            <BuildOrder>93</BuildOrder>
+            <BuildOrder>34</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\BuilderGame.cpp">
+            <BuildOrder>90</BuildOrder>
+            <BuildOrder>35</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\BuilderLODs.cpp">
+            <BuildOrder>62</BuildOrder>
+            <BuildOrder>125</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\BuilderLTX.cpp">
+            <BuildOrder>89</BuildOrder>
+            <BuildOrder>36</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\BuilderOGF.cpp">
+            <BuildOrder>92</BuildOrder>
+            <BuildOrder>37</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\BuilderRemote.cpp">
+            <BuildOrder>91</BuildOrder>
+            <BuildOrder>38</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\Cursor3D.cpp">
+            <BuildOrder>39</BuildOrder>
+            <BuildOrder>144</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\Custom2DProjector.cpp">
+            <BuildOrder>40</BuildOrder>
+            <BuildOrder>143</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\CustomObject.cpp">
+            <BuildOrder>75</BuildOrder>
+            <BuildOrder>128</BuildOrder>
+        </CppCompile>
+        <None Include="Edit\CustomObject.h">
+            <BuildOrder>74</BuildOrder>
+            <BuildOrder>129</BuildOrder>
+        </None>
+        <CppCompile Include="Edit\CustomObjectAnimation.cpp">
+            <BuildOrder>77</BuildOrder>
+            <BuildOrder>130</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\CustomObjectLE.cpp">
+            <BuildOrder>68</BuildOrder>
+            <BuildOrder>127</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EditObjectExportLWO.cpp">
+            <BuildOrder>42</BuildOrder>
+            <BuildOrder>145</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ELight.cpp">
+            <BuildOrder>43</BuildOrder>
+            <BuildOrder>142</BuildOrder>
+        </CppCompile>
+        <None Include="Edit\ELight_def.h">
+            <BuildOrder>65</BuildOrder>
+            <BuildOrder>118</BuildOrder>
+        </None>
+        <CppCompile Include="Edit\ELight_IO.cpp">
+            <BuildOrder>12</BuildOrder>
+            <BuildOrder>117</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ELight_props.cpp">
+            <BuildOrder>13</BuildOrder>
+            <BuildOrder>116</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EParticlesObject.cpp">
+            <BuildOrder>44</BuildOrder>
+            <BuildOrder>139</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapControls.cpp">
+            <BuildOrder>92</BuildOrder>
+            <BuildOrder>37</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapTools.cpp">
+            <BuildOrder>45</BuildOrder>
+            <BuildOrder>138</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapTools_Controls.cpp">
+            <BuildOrder>46</BuildOrder>
+            <BuildOrder>141</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapTools_Export.cpp">
+            <BuildOrder>94</BuildOrder>
+            <BuildOrder>31</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapTools_Generate.cpp">
+            <BuildOrder>47</BuildOrder>
+            <BuildOrder>140</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapTools_MotionSimulator.cpp">
+            <BuildOrder>48</BuildOrder>
+            <BuildOrder>147</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapTools_Pick.cpp">
+            <BuildOrder>49</BuildOrder>
+            <BuildOrder>154</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneAIMapTools_Render.cpp">
+            <BuildOrder>50</BuildOrder>
+            <BuildOrder>153</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneControlsCustom.cpp">
+            <BuildOrder>93</BuildOrder>
+            <BuildOrder>34</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneCustomMTools.cpp">
+            <BuildOrder>51</BuildOrder>
+            <BuildOrder>156</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneCustomMToolsControls.cpp">
+            <BuildOrder>52</BuildOrder>
+            <BuildOrder>155</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneCustomOTools.cpp">
+            <BuildOrder>53</BuildOrder>
+            <BuildOrder>152</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneCustomOToolsIO.cpp">
+            <BuildOrder>54</BuildOrder>
+            <BuildOrder>149</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneDOTools.cpp">
+            <BuildOrder>41</BuildOrder>
+            <BuildOrder>146</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneDOTools_Controls.cpp">
+            <BuildOrder>14</BuildOrder>
+            <BuildOrder>113</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneDOTools_Generate.cpp">
+            <BuildOrder>114</BuildOrder>
+            <BuildOrder>11</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneDOTools_Pick.cpp">
+            <BuildOrder>17</BuildOrder>
+            <BuildOrder>112</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneDummyTools.cpp">
+            <BuildOrder>55</BuildOrder>
+            <BuildOrder>148</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneFogVolumeTools.cpp">
+            <BuildOrder>47</BuildOrder>
+            <BuildOrder>140</BuildOrder>
+        </CppCompile>
+        <None Include="Edit\ESceneFogVolumeTools.h">
+            <BuildOrder>45</BuildOrder>
+            <BuildOrder>138</BuildOrder>
+        </None>
+        <CppCompile Include="Edit\ESceneGlowTools.cpp">
+            <BuildOrder>56</BuildOrder>
+            <BuildOrder>151</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneGlowToolsIO.cpp">
+            <BuildOrder>8</BuildOrder>
+            <BuildOrder>101</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneGroupControls.cpp">
+            <BuildOrder>61</BuildOrder>
+            <BuildOrder>126</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneGroupTools.cpp">
+            <BuildOrder>57</BuildOrder>
+            <BuildOrder>150</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneGroupToolsIO.cpp">
+            <BuildOrder>18</BuildOrder>
+            <BuildOrder>111</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneLightTools.cpp">
+            <BuildOrder>58</BuildOrder>
+            <BuildOrder>137</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneLightToolsIO.cpp">
+            <BuildOrder>59</BuildOrder>
+            <BuildOrder>124</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneObjectControls.cpp">
+            <BuildOrder>94</BuildOrder>
+            <BuildOrder>31</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneObjectTools.cpp">
+            <BuildOrder>60</BuildOrder>
+            <BuildOrder>123</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneObjectToolsExportBreakable.cpp">
+            <BuildOrder>64</BuildOrder>
+            <BuildOrder>119</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneObjectToolsIO.cpp">
+            <BuildOrder>105</BuildOrder>
+            <BuildOrder>0</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EScenePortalControls.cpp">
+            <BuildOrder>95</BuildOrder>
+            <BuildOrder>30</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EScenePortalTools.cpp">
+            <BuildOrder>61</BuildOrder>
+            <BuildOrder>126</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EScenePortalToolsIO.cpp">
+            <BuildOrder>7</BuildOrder>
+            <BuildOrder>102</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EScenePSControls.cpp">
+            <BuildOrder>96</BuildOrder>
+            <BuildOrder>33</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EScenePSTools.cpp">
+            <BuildOrder>62</BuildOrder>
+            <BuildOrder>125</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EScenePSToolsIO.cpp">
+            <BuildOrder>3</BuildOrder>
+            <BuildOrder>106</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSectorControls.cpp">
+            <BuildOrder>97</BuildOrder>
+            <BuildOrder>32</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSectorTools.cpp">
+            <BuildOrder>63</BuildOrder>
+            <BuildOrder>122</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSectorToolsIO.cpp">
+            <BuildOrder>4</BuildOrder>
+            <BuildOrder>103</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneShapeControls.cpp">
+            <BuildOrder>98</BuildOrder>
+            <BuildOrder>19</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneShapeTools.cpp">
+            <BuildOrder>64</BuildOrder>
+            <BuildOrder>119</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneShapeToolsIO.cpp">
+            <BuildOrder>2</BuildOrder>
+            <BuildOrder>107</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSoundEnvTools.cpp">
+            <BuildOrder>65</BuildOrder>
+            <BuildOrder>118</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSoundEnvToolsIO.cpp">
+            <BuildOrder>9</BuildOrder>
+            <BuildOrder>108</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSoundSrcTools.cpp">
+            <BuildOrder>66</BuildOrder>
+            <BuildOrder>121</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSoundSrcToolsIO.cpp">
+            <BuildOrder>16</BuildOrder>
+            <BuildOrder>109</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSpawnControls.cpp">
+            <BuildOrder>99</BuildOrder>
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSpawnTools.cpp">
+            <BuildOrder>67</BuildOrder>
+            <BuildOrder>120</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneSpawnToolsIO.cpp">
+            <BuildOrder>104</BuildOrder>
+            <BuildOrder>1</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneWallmarkControls.cpp">
+            <BuildOrder>63</BuildOrder>
+            <BuildOrder>122</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneWallmarkTools.cpp">
+            <BuildOrder>66</BuildOrder>
+            <BuildOrder>121</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneWayControls.cpp">
+            <BuildOrder>5</BuildOrder>
+            <BuildOrder>100</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneWayTools.cpp">
+            <BuildOrder>68</BuildOrder>
+            <BuildOrder>127</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESceneWayToolsIO.cpp">
+            <BuildOrder>15</BuildOrder>
+            <BuildOrder>110</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\EShape.cpp">
+            <BuildOrder>69</BuildOrder>
+            <BuildOrder>134</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESound_Environment.cpp">
+            <BuildOrder>70</BuildOrder>
+            <BuildOrder>133</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ESound_Source.cpp">
+            <BuildOrder>71</BuildOrder>
+            <BuildOrder>136</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\FS2.cpp">
+            <BuildOrder>72</BuildOrder>
+            <BuildOrder>135</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\GeometryPartExtractor.cpp">
+            <BuildOrder>59</BuildOrder>
+            <BuildOrder>124</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\glow.cpp">
+            <BuildOrder>73</BuildOrder>
+            <BuildOrder>132</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\GroupObject.cpp">
+            <BuildOrder>74</BuildOrder>
+            <BuildOrder>129</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\GroupObjectUtils.cpp">
+            <BuildOrder>39</BuildOrder>
+            <BuildOrder>144</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\LevelPreferences.cpp">
+            <BuildOrder>76</BuildOrder>
+            <BuildOrder>131</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\portal.cpp">
+            <BuildOrder>75</BuildOrder>
+            <BuildOrder>128</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\portalutils.cpp">
+            <BuildOrder>76</BuildOrder>
+            <BuildOrder>131</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\scene.cpp">
+            <BuildOrder>77</BuildOrder>
+            <BuildOrder>130</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneIO.cpp">
+            <BuildOrder>79</BuildOrder>
+            <BuildOrder>26</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneObject.cpp">
+            <BuildOrder>80</BuildOrder>
+            <BuildOrder>25</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneObjectIO.cpp">
+            <BuildOrder>81</BuildOrder>
+            <BuildOrder>28</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\ScenePick.cpp">
+            <BuildOrder>82</BuildOrder>
+            <BuildOrder>27</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneRender.cpp">
+            <BuildOrder>83</BuildOrder>
+            <BuildOrder>24</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneSelection.cpp">
+            <BuildOrder>84</BuildOrder>
+            <BuildOrder>21</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneSnap.cpp">
+            <BuildOrder>85</BuildOrder>
+            <BuildOrder>20</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneSummaryInfo.cpp">
+            <BuildOrder>86</BuildOrder>
+            <BuildOrder>23</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneUndo.cpp">
+            <BuildOrder>87</BuildOrder>
+            <BuildOrder>22</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SceneUtil.cpp">
+            <BuildOrder>88</BuildOrder>
+            <BuildOrder>29</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\Scene_Tools.cpp">
+            <BuildOrder>78</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\sector.cpp">
+            <BuildOrder>89</BuildOrder>
+            <BuildOrder>36</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SoundManager_LE.cpp">
+            <BuildOrder>90</BuildOrder>
+            <BuildOrder>35</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\SpawnPoint.cpp">
+            <BuildOrder>91</BuildOrder>
+            <BuildOrder>38</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\UI_LevelMain.cpp">
+            <BuildOrder>88</BuildOrder>
+            <BuildOrder>29</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\UI_LevelTools.cpp">
+            <BuildOrder>81</BuildOrder>
+            <BuildOrder>28</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Edit\WayPoint.cpp">
+            <BuildOrder>95</BuildOrder>
+            <BuildOrder>30</BuildOrder>
+        </CppCompile>
+        <None Include="Engine\ShapeData.h">
+            <BuildOrder>60</BuildOrder>
+            <BuildOrder>123</BuildOrder>
+        </None>
+        <CppCompile Include="FrameAIMap.cpp">
+            <BuildOrder>12</BuildOrder>
+            <Form>fraAIMap</Form>
+            <DependentOn>FrameAIMap.h</DependentOn>
+            <BuildOrder>117</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameDetObj.cpp">
+            <BuildOrder>13</BuildOrder>
+            <Form>fraDetailObject</Form>
+            <DependentOn>FrameDetObj.h</DependentOn>
+            <BuildOrder>116</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameFogVol.cpp">
+            <BuildOrder>43</BuildOrder>
+            <Form>fraFogVol</Form>
+            <DependentOn>FrameFogVol.h</DependentOn>
+            <BuildOrder>142</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameGroup.cpp">
+            <BuildOrder>14</BuildOrder>
+            <Form>fraGroup</Form>
+            <DependentOn>FrameGroup.h</DependentOn>
+            <BuildOrder>113</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameLight.cpp">
+            <BuildOrder>15</BuildOrder>
+            <Form>fraLight</Form>
+            <DependentOn>FrameLight.h</DependentOn>
+            <BuildOrder>110</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameObject.cpp">
+            <BuildOrder>16</BuildOrder>
+            <Form>fraObject</Form>
+            <DependentOn>FrameObject.h</DependentOn>
+            <BuildOrder>109</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FramePortal.cpp">
+            <BuildOrder>17</BuildOrder>
+            <Form>fraPortal</Form>
+            <DependentOn>FramePortal.h</DependentOn>
+            <BuildOrder>112</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FramePS.cpp">
+            <BuildOrder>18</BuildOrder>
+            <Form>fraPS</Form>
+            <DependentOn>FramePS.h</DependentOn>
+            <BuildOrder>111</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameSector.cpp">
+            <BuildOrder>98</BuildOrder>
+            <Form>fraSector</Form>
+            <DependentOn>FrameSector.h</DependentOn>
+            <BuildOrder>19</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameShape.cpp">
+            <BuildOrder>85</BuildOrder>
+            <Form>fraShape</Form>
+            <DependentOn>FrameShape.h</DependentOn>
+            <BuildOrder>20</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameSpawn.cpp">
+            <BuildOrder>84</BuildOrder>
+            <Form>fraSpawn</Form>
+            <DependentOn>FrameSpawn.h</DependentOn>
+            <BuildOrder>21</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrameWayPoint.cpp">
+            <BuildOrder>87</BuildOrder>
+            <Form>fraWayPoint</Form>
+            <DependentOn>FrameWayPoint.h</DependentOn>
+            <BuildOrder>22</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="FrmDBXpacker.cpp">
+            <BuildOrder>73</BuildOrder>
+            <Form>DB_packer</Form>
+            <DependentOn>FrmDBXpacker.h</DependentOn>
+            <BuildOrder>132</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="iniStreamImpl.cpp">
+            <BuildOrder>72</BuildOrder>
+            <BuildOrder>135</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="LEClipEditor.cpp">
+            <BuildOrder>48</BuildOrder>
+            <Form>ClipMaker</Form>
+            <DependentOn>LEClipEditor.h</DependentOn>
+            <BuildOrder>147</BuildOrder>
+        </CppCompile>
+        <None Include="LEClipEditor.ddp">
+            <BuildOrder>-1</BuildOrder>
+            <BuildOrder>146</BuildOrder>
+        </None>
+        <None Include="LEClipEditor.dfm">
+            <BuildOrder>-1</BuildOrder>
+            <BuildOrder>148</BuildOrder>
+        </None>
+        <None Include="LEClipEditor.h">
+            <BuildOrder>54</BuildOrder>
+            <BuildOrder>149</BuildOrder>
+        </None>
+        <CppCompile Include="LeftBar.cpp">
+            <BuildOrder>86</BuildOrder>
+            <Form>fraLeftBar</Form>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>LeftBar.h</DependentOn>
+            <BuildOrder>23</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="LEPhysics.cpp">
+            <BuildOrder>57</BuildOrder>
+            <BuildOrder>150</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="LevelEditor.cpp">
+            <BuildOrder>-1</BuildOrder>
+            <BuildOrder>0</BuildOrder>
+        </CppCompile>
+        <ResFiles Include="LevelEditor.res">
+            <BuildOrder>2</BuildOrder>
+            <BuildOrder>107</BuildOrder>
+        </ResFiles>
+        <None Include="LevelEditor.todo">
+            <BuildOrder>1</BuildOrder>
+            <BuildOrder>-1</BuildOrder>
+        </None>
+        <CppCompile Include="main.cpp">
+            <BuildOrder>5</BuildOrder>
+            <Form>frmMain</Form>
+            <DependentOn>main.h</DependentOn>
+            <BuildOrder>100</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="ObjectList.cpp">
+            <BuildOrder>83</BuildOrder>
+            <Form>frmObjectList</Form>
+            <DependentOn>ObjectList.h</DependentOn>
+            <BuildOrder>24</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="previewimage.cpp">
+            <BuildOrder>80</BuildOrder>
+            <Form>frmPreviewImage</Form>
+            <DependentOn>previewimage.h</DependentOn>
+            <BuildOrder>25</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="PropertiesEObject.cpp">
+            <BuildOrder>79</BuildOrder>
+            <Form>frmPropertiesEObject</Form>
+            <DependentOn>PropertiesEObject.h</DependentOn>
+            <BuildOrder>26</BuildOrder>
+        </CppCompile>
+        <ResFiles Include="resource.res">
+            <BuildOrder>3</BuildOrder>
+            <BuildOrder>106</BuildOrder>
+        </ResFiles>
+        <CppCompile Include="RightForm.cpp">
+            <BuildOrder>46</BuildOrder>
+            <Form>frmRight</Form>
+            <DependentOn>RightForm.h</DependentOn>
+            <BuildOrder>141</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="Splash.cpp">
+            <BuildOrder>82</BuildOrder>
+            <Form>frmSplash</Form>
+            <DependentOn>Splash.h</DependentOn>
+            <BuildOrder>27</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="stdafx.cpp">
+            <BuildOrder>7</BuildOrder>
+            <BuildOrder>102</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="TopBar.cpp">
+            <BuildOrder>99</BuildOrder>
+            <Form>fraTopBar</Form>
+            <DesignClass>TFrame</DesignClass>
+            <DependentOn>TopBar.h</DependentOn>
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Layers\xrRender\DetailManager.cpp">
+            <BuildOrder>70</BuildOrder>
+            <BuildOrder>133</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Layers\xrRender\DetailManager_CACHE.cpp">
+            <BuildOrder>58</BuildOrder>
+            <BuildOrder>137</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Layers\xrRender\DetailManager_Decompress.cpp">
+            <BuildOrder>69</BuildOrder>
+            <BuildOrder>134</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Layers\xrRender\DetailManager_soft.cpp">
+            <BuildOrder>71</BuildOrder>
+            <BuildOrder>136</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Layers\xrRender\DetailManager_VS.cpp">
+            <BuildOrder>44</BuildOrder>
+            <BuildOrder>139</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\Layers\xrRender\stats_manager.cpp">
+            <BuildOrder>51</BuildOrder>
+            <BuildOrder>156</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\xrEngine\ObjectAnimator.cpp">
+            <BuildOrder>115</BuildOrder>
+            <BuildOrder>10</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\xrServerEntities\gametype_chooser.cpp">
+            <BuildOrder>40</BuildOrder>
+            <BuildOrder>143</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="..\..\xrServerEntities\LevelGameDef.cpp">
+            <BuildOrder>67</BuildOrder>
+            <BuildOrder>120</BuildOrder>
+        </CppCompile>
+        <FormResources Include="BottomBar.dfm"/>
+        <FormResources Include="main.dfm"/>
+        <FormResources Include="TopBar.dfm"/>
+        <FormResources Include="DOOneColor.dfm"/>
+        <FormResources Include="DOShuffle.dfm"/>
+        <FormResources Include="EditLibrary.dfm"/>
+        <FormResources Include="EditLightAnim.dfm"/>
+        <FormResources Include="FrameAIMap.dfm"/>
+        <FormResources Include="FrameDetObj.dfm"/>
+        <FormResources Include="FrameGroup.dfm"/>
+        <FormResources Include="FrameLight.dfm"/>
+        <FormResources Include="FrameObject.dfm"/>
+        <FormResources Include="FramePortal.dfm"/>
+        <FormResources Include="FramePS.dfm"/>
+        <FormResources Include="FrameSector.dfm"/>
+        <FormResources Include="FrameShape.dfm"/>
+        <FormResources Include="FrameSpawn.dfm"/>
+        <FormResources Include="FrameWayPoint.dfm"/>
+        <FormResources Include="LeftBar.dfm"/>
+        <FormResources Include="ObjectList.dfm"/>
+        <FormResources Include="previewimage.dfm"/>
+        <FormResources Include="PropertiesEObject.dfm"/>
+        <FormResources Include="Splash.dfm"/>
+        <FormResources Include="FrmDBXpacker.dfm"/>
+        <FormResources Include="RightForm.dfm"/>
+        <FormResources Include="FrameFogVol.dfm"/>
+        <FormResources Include="Edit\AppendObjectInfoForm.dfm"/>
+        <FormResources Include="LEClipEditor.dfm"/>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Project="$(BDS)\Bin\CodeGear.Cpp.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Cpp.Targets')"/>
+    <ProjectExtensions>
+        <Borland.Personality>CPlusPlusBuilder.Personality.12</Borland.Personality>
+        <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+        <BorlandProject>
+            <CPlusPlusBuilder.Personality>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">2</VersionInfo>
+                    <VersionInfo Name="Build">157</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1033</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.2.157</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Count">15</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item0">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..\;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;..\..\..\sdk\components\AlexMX;..\..\..\sdk\components\ElPack\Code;..\..\..\sdk\components\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item1">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;..\..\..\sdk\components\AlexMX;..\..\..\sdk\components\ElPack\Code;..\..\..\sdk\components\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item2">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item3">..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item4">$(VC_INCLUDE);..\..;..\..\xrServerEntities;..\..\Layers\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item5">..\..;..\..\xrServerEntities;..\..\Layers\xrRender;..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item6">..\..\xrServerEntities;..\..\Layers\xrRender;..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item7">..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR);$(ETOOLS_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item8">..\..\xrEngine\xrRender;$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item9">$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrRender;$(MAGIC_SW_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item10">$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrEngine/xrRender;$(MAGIC_SW_DIR)</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item11">$(DXSDK_DIR)\Include;Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrEngine/xrRender</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item12">Edit;Engine;$(BCB)\Projects;$(BCB)\include\vcl;$(BCB)\include;$(DXSDK_DIR)\Include;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;$(CORE_DIR);../../xrEngine;../../xrEngine/xrRender</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item13">Edit;H:\RAD\Borland\CBuilder6\Projects;&quot;R:\SDK\Microsoft DirectX 9.0 SDK (April 2005)\Include&quot;Edit;Engine;r:\borland\components6\alexmx;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;P:\xrCore;..\ECore;..\ECore\Editor;..\ECore\Engine;..\ECore\Engine\blenders;..\ECore\Engine\visuals;..\xrEProps;P:\xrSound</HistoryLists_hlIncludePath>
+                    <HistoryLists_hlIncludePath Name="Item14">H:\RAD\Borland\CBuilder6\Projects;R:\SDK\Microsoft DirectX 9.0 SDK (April 2005)\Include;Engine\Game;Edit;Engine;r:\borland\components6\alexmx;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;P:\xrCore;..\ECore;..\ECore\Editor;..\ECore\Engine;..\ECore\Engine\blenders;..\ECore\Engine\visuals;..\xrEProps;P:\xrSound</HistoryLists_hlIncludePath>
+                </HistoryLists_hlIncludePath>
+                <HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Count">15</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item0">..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\sdk\sources\MagicSoftware\FreeMagic\Source\Containment2D;..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;$(OUT_LIB_DIR)</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item1">..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;$(OUT_LIB_DIR)</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item2">..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item3">..\..;..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries;X:\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item4">..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries;X:\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item5">..\..\Layers\xrRender;..\..\xrServerEntities;..\..\xrEngine;Edit;..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item6">..\..\..\SDK\components\ElPack\Code;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item7">..\..\xrServerEntities;..\..\Layers\xrRender;..\..\..\SDK\components\ElPack\Code;..\..\xrEngine\xrRender;..\..\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item8">..\..\xrEngine\xrRender;..\..\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item9">..\..\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;X:\stalker_addon\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item10">..\..\xrEngine\xrRender;..\..\xrEngine;Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;x:\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item11">Edit;Engine;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;x:\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item12">$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\alexmx;$(COMPONENTS)\ElPack\Code;$(COMPONENTS)\ElPack\Code\Source;x:\libraries</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item13">H:\RAD\Borland\CBuilder6\Projects;Edit;Engine;C:\Rad\Borland\CBuilder6\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;r:\borland\components6\alexmx;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;..\lib\dx;..\lib;x:\;..\ECore;..\ECore\Editor</HistoryLists_hlLibraryPath>
+                    <HistoryLists_hlLibraryPath Name="Item14">H:\RAD\Borland\CBuilder6\Projects;Engine\Game;Edit;Engine;C:\Rad\Borland\CBuilder6\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;r:\borland\components6\alexmx;R:\Borland\Components6\ElPack\Code;R:\Borland\Components6\ElPack\Code\Source;..\lib\dx;..\lib;x:\;..\ECore;..\ECore\Editor</HistoryLists_hlLibraryPath>
+                </HistoryLists_hlLibraryPath>
+                <HistoryLists_hlDebugSourcePath>
+                    <HistoryLists_hlDebugSourcePath Name="Count">3</HistoryLists_hlDebugSourcePath>
+                    <HistoryLists_hlDebugSourcePath Name="Item0">..\ECore\Editor\</HistoryLists_hlDebugSourcePath>
+                    <HistoryLists_hlDebugSourcePath Name="Item1">X:\stalker_addon\sources\engine\editors\ECore\Editor\</HistoryLists_hlDebugSourcePath>
+                    <HistoryLists_hlDebugSourcePath Name="Item2">c:\rad\borland\cbuilder5\source\vcl;R:\Borland\Components6\AlexMX\</HistoryLists_hlDebugSourcePath>
+                </HistoryLists_hlDebugSourcePath>
+                <HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Count">2</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item0">_EDITOR;_LEVEL_EDITOR;_DEBUG</HistoryLists_hlConditionals>
+                    <HistoryLists_hlConditionals Name="Item1">_EDITOR;_LEVEL_EDITOR</HistoryLists_hlConditionals>
+                </HistoryLists_hlConditionals>
+                <HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Count">4</HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Item0">..\..\..\intermediate\editors\LevelEditor</HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Item1">x:\intermediate_ed\le</HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Item2">$(OUTPUT_INTERMEDIATE_DIR)\le</HistoryLists_hlIntOutputDir>
+                    <HistoryLists_hlIntOutputDir Name="Item3">intermediate</HistoryLists_hlIntOutputDir>
+                </HistoryLists_hlIntOutputDir>
+                <HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Count">6</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item0">..\..\..\bin\editors\</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item1">$(OUTPUT_BINARIES_DIR)\</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item2">x:\stalker_addon\binaries\</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item3">x:\binaries\</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item4">x:\binaries</HistoryLists_hlFinalOutputDir>
+                    <HistoryLists_hlFinalOutputDir Name="Item5">x:\</HistoryLists_hlFinalOutputDir>
+                </HistoryLists_hlFinalOutputDir>
+                <HistoryLists_hIBPIOutputDir>
+                    <HistoryLists_hIBPIOutputDir Name="Count">5</HistoryLists_hIBPIOutputDir>
+                    <HistoryLists_hIBPIOutputDir Name="Item0">..\..\..\lib\editors</HistoryLists_hIBPIOutputDir>
+                    <HistoryLists_hIBPIOutputDir Name="Item1">x:\stalker_addon\libraries</HistoryLists_hIBPIOutputDir>
+                    <HistoryLists_hIBPIOutputDir Name="Item2">$(OUTPUT_LIBRARIES_DIR)</HistoryLists_hIBPIOutputDir>
+                    <HistoryLists_hIBPIOutputDir Name="Item3">$(OUTPUT_LIBRARIES_DIR)\</HistoryLists_hIBPIOutputDir>
+                    <HistoryLists_hIBPIOutputDir Name="Item4">x:\libraries</HistoryLists_hIBPIOutputDir>
+                </HistoryLists_hIBPIOutputDir>
+                <Debugging>
+                    <Debugging Name="DebugSourceDirs">..\ECore\Editor\</Debugging>
+                </Debugging>
+                <Parameters>
+                    <Parameters Name="RunParams">-wf x:\stalker_addon\resources -editor</Parameters>
+                    <Parameters Name="Launcher"/>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="DebugCWD"/>
+                    <Parameters Name="HostApplication">x:\STALKER_ADDON\binaries\LevelEditor.exe</Parameters>
+                    <Parameters Name="RemoteHost"/>
+                    <Parameters Name="RemotePath"/>
+                    <Parameters Name="RemoteParams"/>
+                    <Parameters Name="RemoteLauncher"/>
+                    <Parameters Name="UseRemoteLauncher">False</Parameters>
+                    <Parameters Name="RemoteCWD"/>
+                    <Parameters Name="RemoteDebug">False</Parameters>
+                    <Parameters Name="Debug Symbols Search Path"/>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                </Parameters>
+                <Source>
+                    <Source Name="MainSource">LevelEditor.cpp</Source>
+                </Source>
+                <ProjectProperties>
+                    <ProjectProperties Name="AutoShowDeps">False</ProjectProperties>
+                    <ProjectProperties Name="ManagePaths">True</ProjectProperties>
+                    <ProjectProperties Name="VerifyPackages">True</ProjectProperties>
+                    <ProjectProperties Name="IndexFiles">False</ProjectProperties>
+                </ProjectProperties>
+            </CPlusPlusBuilder.Personality>
+            <Platforms>
+                <Platform value="iOSDevice64">False</Platform>
+                <Platform value="OSX32">False</Platform>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

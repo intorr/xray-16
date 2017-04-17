@@ -8,7 +8,11 @@
 #define _WIN32_WINNT 0x0501
 #endif
 
+#ifdef __BORLANDC__
+#include <utime.h>
+#else
 #include <sys/utime.h>
+#endif
 
 #define NOGDICAPMASKS
 //#define NOSYSMETRICS

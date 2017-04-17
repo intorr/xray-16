@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppDynamicLibrary</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{D91A5565-7094-4AC5-843B-930E3588A817}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="libraries" value="editor.lib elpackB6.lib vclx.lib bcbsmp.lib vcl.lib"/>
+        <property category="build.node" name="name" value="xrCoreB.dll"/>
+        <property category="build.node" name="packages" value="rtl"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcl.lib bcbsmp.lib vclx.lib elpackB6.lib editor.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.V.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="option.6.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.2" value="_XRCOREB"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.3" value="XRCORE_EXPORTS"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="pch.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="blackbox"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.10" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="..\editors\ECore"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="E:\Program Files (x86)\Borland\CBuilder6\Projects"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="..\"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="..\utils\etools"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.6" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.7" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.8" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.9" value="$(BDS)\Include\Mfc"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Od.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Q.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Vx.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.X.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.align-3.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.fff.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.k.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.1" value="..\..\intermediate\editors\xrCoreB\"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.n.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.noregistervars.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.ps.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.vi.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wamb.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wamp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wasm.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wbbf.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wcln.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wdef.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.winl.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.wnak.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wnod.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wpin.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wprc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wsig.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstl.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstu.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wstv.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.wucp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.xf.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.xp.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.y.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.2" value="_XRCOREB"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.3" value="XRCORE_EXPORTS"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.4" value="_DEBUG"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.D.enabled" value="0"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.1" value="..\editors\ECore"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.2" value="E:\Program Files (x86)\Borland\CBuilder6\Projects"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.3" value="blackbox"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.4" value="$(ETOOLS_DIR)"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.5" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.6" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.7" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.8" value="$(BDS)\Include\Mfc"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.9" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.INCLUDEPATH.enabled" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.1" value="..\..\intermediate\editors\xrCoreB\"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.brcc32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.1" value="Y+"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.2" value="W"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.$O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="blackbox"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.M.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.1" value="..\..\intermediate\editors\xrCoreB\"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.arg.merge" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.N0.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.1" value="..\..\intermediate\editors\xrCoreB\"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.NO.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="blackbox"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="blackbox"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="blackbox"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value=".\"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.2" value="_XRCOREB"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.3" value="XRCORE_EXPORTS"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.4" value="_DEBUG"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="..\editors\ECore"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.10" value="$(BDS)\Include\Mfc"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="E:Program"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="Files"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="(x86)BorlandCBuilder6Projects"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="blackbox"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="$(ETOOLS_DIR)"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.7" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.8" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.9" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.boa.enabled" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg" value="cpp"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.srcsuffix.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg" value="&quot;&quot;"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.D.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.1" value="..\..\intermediate\editors\xrCoreB"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="..\editors\ECore"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.10" value="..\..\sdk\components\AlexMX"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="E:\Program Files (x86)\Borland\CBuilder6\Projects"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="blackbox"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="$(BDS)\Projects\Lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.7" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.8" value="$(OUT_LIB_DIR)"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.9" value="..\..\sdk\components\Elpack\Code"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="blackbox"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.1" value="..\..\lib\editors"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.arg.merge" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.l.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.1" value="..\..\bin\editors\"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.v.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0d32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="Memmgr.Lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.1" value="_EDITOR"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.2" value="_XRCOREB"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.3" value="XRCORE_EXPORTS"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.4" value="_DEBUG"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.d.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.1" value="..\editors\ECore"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.2" value="E:\Program Files (x86)\Borland\CBuilder6\Projects"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.3" value="blackbox"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.4" value="$(ETOOLS_DIR)"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.5" value="$(DXSDK_DIR)\Include"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.6" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.7" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.8" value="$(BDS)\Include\Mfc"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.9" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.i.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.mu.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.arg.1" value="..\..\intermediate\editors\xrCoreB\"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.arg.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.outputdir.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.w2.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="option.zi.enabled" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+          <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="xrCoreB.bpf" CONTAINERID="BPF" LOCALCOMMAND="" UNITNAME="xrCoreB" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_math.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="_math.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_sphere.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="_sphere.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="cpuid.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="cpuid.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="stdafx.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="stdafx.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrCore.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrCore.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrMemory.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_pso_Copy.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrMemory_pso_Copy.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_pso_Fill.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrMemory_pso_Fill.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_compressed_normal.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="_compressed_normal.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_align.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrMemory_align" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrCore.rc" CONTAINERID="RCCompiler" LOCALCOMMAND="" UNITNAME="xrCore.rc" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LzHuf.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LzHuf.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="log.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="log.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FS.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FS.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xr_trims.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xr_trims.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Xr_ini.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Xr_ini.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="clsid.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="clsid" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FileSystem_borland.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FileSystem_borland.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FileSystem.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FileSystem.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_subst_msvc.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrMemory_subst_msvc.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_POOL.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrMemory_POOL.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_subst_borland.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrMemory_subst_borland.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_lzo.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_compressor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_compressor.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FTimer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FTimer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrstring.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrstring" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrsharedmem.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrsharedmem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrSyncronize.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrSyncronize.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_bitwise.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_bitwise.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_color.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_color.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_compressed_normal.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_compressed_normal.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_cylinder.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_cylinder.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_fbox2.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_fbox2.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_fbox.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_fbox.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_flags.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_flags.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_math.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_math.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_matrix33.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_matrix33.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_matrix.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_matrix.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_obb.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_obb.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_plane.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_plane.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_quaternion.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_quaternion.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_random.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_random.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_rect.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_rect.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_sphere.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_sphere.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_std_extensions.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_std_extensions.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_stl_extensions.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_stl_extensions.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_type_traits.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_type_traits.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_types.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_types.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_vector2.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_vector2.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_vector3d.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_vector3d.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_vector4.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="_vector4.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="clsid.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="clsid.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="cpuid.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="cpuid.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FileSystem.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="FileSystem.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FixedMap.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="FixedMap.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FixedSet.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="FixedSet.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FixedVector.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="FixedVector.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FS.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="FS.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FS_internal.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="FS_internal.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="FTimer.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="FTimer.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="log.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="log.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="lzhuf.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="lzhuf.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="resource.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="resource.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_compressor.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="rt_compressor.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="rt_lzo.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo_config.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="rt_lzo_config.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="stdafx.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="stdafx.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="vector.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="vector.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Xr_ini.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="Xr_ini.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xr_trims.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xr_trims.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrCore.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrCore.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrCPU_Pipe.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrCPU_Pipe.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrDebug_macros.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrDebug_macros.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrMemory.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_align.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrMemory_align.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_POOL.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrMemory_POOL.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_pso.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrMemory_pso.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_subst_borland.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrMemory_subst_borland.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrMemory_subst_msvc.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrMemory_subst_msvc.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrPool.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrPool.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrsharedmem.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrsharedmem.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrstring.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="xrstring.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="_std_extensions.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="_std_extensions" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="crc32.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="crc32" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="fastdelegate.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="fastdelegate.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrSyncronize.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrSyncronize" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="D3DX_Wrapper.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="D3DX_Wrapper.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="ELocatorAPI.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ELocatorAPI" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LocatorAPI_defs.h" CONTAINERID="" LOCALCOMMAND="" UNITNAME="LocatorAPI_defs.h" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="LocatorAPI_defs.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="LocatorAPI_defs" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrDebug.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrDebug" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="xrDebugNew.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xrDebugNew" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\TLHELPProcessInfo.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TLHELPProcessInfo.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\BlackBoxUI.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BlackBoxUI.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\BSUFunctions.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BSUFunctions.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\CrashHandler.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CrashHandler.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\DiagAssert.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DiagAssert.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\GetLoadedModules.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="GetLoadedModules.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\IsNT.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="IsNT.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\NT4ProcessInfo.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="NT4ProcessInfo.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="blackbox\stdafx_.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="stdafx_.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_compressor9.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_compressor9.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo1x_1.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_lzo1x_1.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo1x_9x.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_lzo1x_9x.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo1x_d1.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_lzo1x_d1.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo1x_d2.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_lzo1x_d2.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo1x_d3.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_lzo1x_d3.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="rt_lzo_init.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rt_lzo_init.cpp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="os_clipboard.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="os_clipboard" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">34</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1058</VersionInfo>
+          <VersionInfo Name="CodePage">1251</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.34</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Count">30</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item0">..\editors\ECore;E:\Program Files (x86)\Borland\CBuilder6\Projects;blackbox;$(ETOOLS_DIR);$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item1">blackbox;$(ETOOLS_DIR);$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item2">$(VC_INCLUDE);blackbox;$(ETOOLS_DIR);$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item3">blackbox;$(ETOOLS_DIR);$(DXSDK_DIR)\Include;$(BCB)\_include_;$(BCB)\include\vcl;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item4">$(ETOOLS_DIR);$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item5">$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item6">$(DXSDK)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item7">I:\Program Files\Microsoft DirectX SDK (October 2006)\Include;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item8">R:\SDK\Microsoft DirectX 9.0 SDK (April 2005)\Include;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;$(BCB)\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item9">R:\SDK\Microsoft DirectX 9.0 SDK (April 2005)\Include;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\Borland\CBuilder6\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item10">R:\SDK\Microsoft DirectX 9.0 SDK (February 2005)\Include;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\Borland\CBuilder6\Include\Mfc;..\Tools\Etools</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item11">R:\SDK\Microsoft DirectX 9.0 SDK (October 2004)\Include;$(BCB)\include;$(BCB)\include\vcl;R:\SDK\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\Borland\CBuilder6\Include\Mfc;..\Tools\Etools</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item12">R:\SDK\DirectX9.0_sum_2004\Include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\Borland\CBuilder6\Include\Mfc;..\Tools\Etools</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item13">R:\SDK\DirectX9.0_sum_2004\Include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\Borland\CBuilder6\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item14">$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\Borland\CBuilder6\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item15">R:\SDK\DirectX9.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\Borland\CBuilder6\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item16">R:\SDK\DirectX9.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\VS7.NET\Vc7\atlmfc\include;R:\Borland\CBuilder6\Include\Mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item17">R:\SDK\DirectX9.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\VS7.NET\Vc7\atlmfc\include</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item18">R:\SDK\DirectX8.1\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\VS7.NET\Vc7\atlmfc\include</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item19">R:\SDK\DirectX8.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\VS7.NET\Vc7\atlmfc\include</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item20">R:\SDK\DirectX9.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;R:\VS7.NET\Vc7\atlmfc\include;$(BCB)\include\mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item21">R:\SDK\DirectX9.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source;$(BCB)\include\mfc</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item22">R:\SDK\DirectX9.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item23">R:\DirectX9.0\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item24">R:\DirectX9\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item25">R:\DirectX8.1\include;$(BCB)\include;$(BCB)\include\vcl;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item26">..\LevelOptions\Engine;..\LevelOptions\Editor;..\LevelOptions;Editor;R:\DirectX8.1\include;$(BCB)\include;$(BCB)\include\vcl;engine;P:\MagicFM_Borland\Sdk\Include;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item27">Editor;R:\DirectX8.1\include\;$(BCB)\include;$(BCB)\include\vcl;engine;P:\MagicFM_Borland\Sdk\Include\;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code\Source</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item28">Editor;Engine\Blenders;R:\Borland\Components\Eldos\Code\Source\;r:\borland\components\alexmx\;lib\DX;R:\DirectX8.1\include\;c:\rad\Borland\CBuilder5\Bin\;c:\rad\borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;engine;edit;Import\LWO;Collide;P:\MagicFM_Borland\Sdk\Include\;c:\rad\borland\components\extbtn\;c:\rad\borland\components\multi\;c:\rad\borland\components\renderwindow\;C:\RAD\borland\Components\RX\Units\;C:\RAD\borland\Components\ElTree\Code\Source\</HistoryLists_hlIncludePath>
+          <HistoryLists_hlIncludePath Name="Item29">Engine\Blenders;R:\Borland\Components\Eldos\Code\Source\;r:\borland\components\alexmx\;lib\DX;R:\DirectX8.1\include\;c:\rad\Borland\CBuilder5\Bin\;c:\rad\borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;engine;edit;Import\LWO;Collide;P:\MagicFM_Borland\Sdk\Include\;c:\rad\borland\components\extbtn\;c:\rad\borland\components\multi\;c:\rad\borland\components\renderwindow\;C:\RAD\borland\Components\RX\Units\;C:\RAD\borland\Components\ElTree\Code\Source\</HistoryLists_hlIncludePath>
+        </HistoryLists_hlIncludePath>
+        <HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Count">30</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item0">..\editors\ECore;E:\Program Files (x86)\Borland\CBuilder6\Projects;blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(OUT_LIB_DIR);..\..\sdk\components\Elpack\Code;..\..\sdk\components\AlexMX</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item1">..\editors\ECore;E:\Program Files (x86)\Borland\CBuilder6\Projects;blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(OUT_LIB_DIR);$(COMPONENTS)\Elpack\Code;$(COMPONENTS)\AlexMX</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item2">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(OUT_LIB_DIR);$(COMPONENTS)\Elpack\Code;$(COMPONENTS)\AlexMX</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item3">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(COMPONENTS)\ElPack\Code;$(OUT_LIB_DIR)</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item4">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(COMPONENTS)\ElPack\Code;$(OUTPUT_LIBRARIES_DIR)</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item5">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(COMPONENTS)\ElPack\Code;$(OUTPUT_LINRARIES_DIR)</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item6">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(COMPONENTS)\ElPack\Code</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item7">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(BCB)\lib\psdk;$(COMPONENTS_DIR)\ElPack\Code</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item8">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\stalker_addon\libraries;$(BCB)\lib\psdk;X:\stalker_addon\sources\sdk\components\ElPack\Code;x:\libraries;X:\sources\sdk\components\ElPack\Code</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item9">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\stalker_addon\libraries;$(BCB)\lib\psdk;X:\stalker_addon\sources\sdk\components\ElPack\Code;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item10">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\stalker_addon\libraries;$(BCB)\lib\psdk;X:\stalker_addon\sources\sdk\components\ElPack\Code;x:\libraries\</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item11">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\stalker_addon\libraries;$(BCB)\lib\psdk;X:\stalker_addon\sources\sdk\components\ElPack\Code</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item12">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\stalker_addon\libraries;$(BCB)\lib\psdk</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item13">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\libraries;$(BCB)\lib\psdk</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item14">blackbox;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item15">$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item16">i:\Projects\editors\components\Alexmx;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item17">$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\AlexMX;$(COMPONENTS)\ElPack\Code;x:\libraries</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item18">$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;$(COMPONENTS)\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk;..\Editors\lib\dx;..\Editors\lib;x:\</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item19">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk;..\Editors\lib\dx;..\Editors\lib;x:\</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item20">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk;..\Editors\lib\dx;..\Editors\lib</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item21">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk;..\lib\dx;..\lib</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item22">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk;lib;lib\dx</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item23">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk;lib</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item24">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item25">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code;R:\Borland\CBuilder6\Lib\Psdk\</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item26">c:\rad\borland\CBuilder5\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item27">..\LevelOptions\Engine;..\LevelOptions\Editor;..\LevelOptions;c:\rad\borland\CBuilder5\Projects;engine;editor;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item28">c:\rad\borland\CBuilder5\Projects\;engine;editor;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;R:\Borland\Components6\AlexMX;R:\Borland\Components6\ElPack\Code</HistoryLists_hlLibraryPath>
+          <HistoryLists_hlLibraryPath Name="Item29">c:\rad\borland\CBuilder5\Projects\;engine;editor;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;r:\borland\components\alexmx\;R:\Borland\Components\Eldos\Code\Source\;R:\Borland\Components\Eldos\Code\</HistoryLists_hlLibraryPath>
+        </HistoryLists_hlLibraryPath>
+        <HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Count">1</HistoryLists_hlDebugSourcePath>
+          <HistoryLists_hlDebugSourcePath Name="Item0">$(BCB)\source\vcl</HistoryLists_hlDebugSourcePath>
+        </HistoryLists_hlDebugSourcePath>
+        <HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Count">8</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item0">_EDITOR;_XRCOREB;XRCORE_EXPORTS;_DEBUG</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item1">_EDITOR;_XRCOREB;XRCORE_EXPORTS</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item2">_XRCOREB;XRCORE_EXPORTS</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item3">_XRCOREB;XRCORE_EXPORTS;_DEBUG</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item4">_XRCOREB</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item5">_LEVEL_OPTIONS</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item6">_OPTIONS</HistoryLists_hlConditionals>
+          <HistoryLists_hlConditionals Name="Item7">_DEBUG</HistoryLists_hlConditionals>
+        </HistoryLists_hlConditionals>
+        <HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Count">9</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item0">..\..\intermediate\editors\xrCoreB\</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item1">x:\intermediate_ed\core</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item2">$(OUTPUT_INTERMEDIATE_DIR)\core</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item3">$(OUTPUT_INTERMEDIATE_DIR)</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item4">$(OUTPUT_INTERMEDIATE_DIR)\</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item5">x:\intermediate_ed</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item6">Intermediate</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item7">XRLC_Intermediate</HistoryLists_hlIntOutputDir>
+          <HistoryLists_hlIntOutputDir Name="Item8">xrLC_Options</HistoryLists_hlIntOutputDir>
+        </HistoryLists_hlIntOutputDir>
+        <HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Count">19</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item0">..\..\bin\editors\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item1">$(OUTPUT_BINARIES_DIR)\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item2">x:\stalker_addon\binaries\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item3">x:\binaries\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item4">x:\binaries</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item5">C:\Program Files\THQ\S.T.A.L.K.E.R. - Shadow of Chernobyl\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item6">x:\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item7">x:\build\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item8">x:\build</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item9">u:\preliminary\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item10">u:\preliminary</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item11">s:\bin\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item12">z:\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item13">S:\build_zmey\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item14">S:\build_zmey</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item15">x:\xrCoreB.dll\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item16">x:\xrCoreB.dll</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item17">!run\</HistoryLists_hlFinalOutputDir>
+          <HistoryLists_hlFinalOutputDir Name="Item18">!run</HistoryLists_hlFinalOutputDir>
+        </HistoryLists_hlFinalOutputDir>
+        <HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Count">8</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item0">..\..\lib\editors\</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item1">x:\stalker_addon\libraries</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item2">$(OUT_LIB_DIR)</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item3">$(OUT_LIB_DIR)\</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item4">$(OUTPUT_LIBRARIES_DIR)</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item5">$(OUTPUT_LIBRARIES_DIR)\</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item6">x:\libraries</HistoryLists_hIBPIOutputDir>
+          <HistoryLists_hIBPIOutputDir Name="Item7">x:\libraries\</HistoryLists_hIBPIOutputDir>
+        </HistoryLists_hIBPIOutputDir>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams">-wf x:\stalker_addon\resources</Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication">x:\stalker_addon\binaries\LevelEditor.exe</Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<Source>
+			<Source Name="MainSource">xrCoreB.bpf</Source>
+		</Source>  <buildevents/>
+  </CPlusPlusBuilder.Personality>
+</BorlandProject>
