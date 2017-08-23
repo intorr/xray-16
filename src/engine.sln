@@ -193,6 +193,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{49438080-7
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pugixml_vs2017_static", "..\Externals\pugixml_vs2017_static.vcxproj", "{07CF01C0-B887-499D-AD9C-799CB6A9FE64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xrGlobalEditor", "editors\xrGlobalEditor\xrGlobalEditor.csproj", "{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug_Dedicated|Win32 = Debug_Dedicated|Win32
@@ -1025,7 +1027,7 @@ Global
 		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Debug_Dedicated|Win32.ActiveCfg = Debug|x86
 		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Debug_Dedicated|Win32.Build.0 = Debug|x86
 		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Debug_Dedicated|x64.ActiveCfg = Debug|x64
-		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Debug|Win32.ActiveCfg = Debug|x86
+		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Debug|Win32.ActiveCfg = Debug|Win32
 		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Debug|x64.ActiveCfg = Debug|x64
 		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Debug|x64.Build.0 = Debug|x64
 		{E9DC16A3-D0FA-4924-AF6E-F6FDF3EA0661}.Mixed_Dedicated|Win32.ActiveCfg = Release|x86
@@ -1696,6 +1698,30 @@ Global
 		{07CF01C0-B887-499D-AD9C-799CB6A9FE64}.Release|Win32.Build.0 = Release|Win32
 		{07CF01C0-B887-499D-AD9C-799CB6A9FE64}.Release|x64.ActiveCfg = Release|x64
 		{07CF01C0-B887-499D-AD9C-799CB6A9FE64}.Release|x64.Build.0 = Release|x64
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug_Dedicated|Win32.ActiveCfg = Debug|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug_Dedicated|Win32.Build.0 = Debug|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug_Dedicated|x64.ActiveCfg = Debug|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug_Dedicated|x64.Build.0 = Debug|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug|Win32.Build.0 = Debug|Win32
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Debug|x64.Build.0 = Debug|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed_Dedicated|Win32.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed_Dedicated|Win32.Build.0 = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed_Dedicated|x64.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed_Dedicated|x64.Build.0 = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed|Win32.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed|Win32.Build.0 = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed|x64.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Mixed|x64.Build.0 = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release_Dedicated|Win32.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release_Dedicated|Win32.Build.0 = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release_Dedicated|x64.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release_Dedicated|x64.Build.0 = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release|Win32.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release|Win32.Build.0 = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release|x64.ActiveCfg = Release|Any CPU
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1762,6 +1788,7 @@ Global
 		{C964D17A-05A8-4BFA-B0A8-7AF5C6B627EC} = {49438080-78B8-4056-BDCB-4DACAD652C21}
 		{7885CF3C-EE04-4C67-9467-1FBF9A36B037} = {49438080-78B8-4056-BDCB-4DACAD652C21}
 		{07CF01C0-B887-499D-AD9C-799CB6A9FE64} = {2BFC806B-CE92-4EA4-8FE8-5F2EA54BA348}
+		{ADA1B485-60DD-49C8-B4B7-BA24D04F9E5C} = {CB0C814D-FB4E-453B-B7A0-716F4A1EACA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06F22227-3C7F-473A-84BD-C3BD0D51E934}
