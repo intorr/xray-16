@@ -5,9 +5,81 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:xrGlobalEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="xrGlobalEditor">
     <Grid>
-        <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" MinHeight="20" IsManipulationEnabled="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" UseLayoutRounding="True" Height="37" Width="248">
+        <Menu Height="20" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalContentAlignment="Stretch">
+            <MenuItem Header="File">
+                <MenuItem Header="Open" />
+                <MenuItem Header="Load" />
+                <MenuItem Header="Save" />
+                <MenuItem Header="Save as.." />
+                <MenuItem Header="Clear" />
+                <Separator />
+                <MenuItem Header="Open selection.." />
+                <MenuItem Header="Save selection as.." />
+                <Separator />
+                <MenuItem Header="Make pack.." />
+                <Separator />
+                <MenuItem Header="Open recent.." />
+                <Separator />
+                <MenuItem Header="Exit"/>
+            </MenuItem>
+            <MenuItem Header="Scene">
+                <MenuItem Header="Options" />
+                <Separator />
+                <MenuItem Header="Validate" />
+                <Separator />
+                <MenuItem Header="Summary Info" />
+                <MenuItem Header="Highlight Texture" />
+                <Separator />
+                <MenuItem Header="Clear Debug Draw"/>
+                <Separator />
+                <MenuItem Header="Export entire scene as obj"/>
+                <MenuItem Header="Export selection as obj"/>
+            </MenuItem>
+            <MenuItem Header="Compile">
+                <MenuItem Header="Build" />
+                <Separator />
+                <MenuItem Header="Make Game" />
+                <MenuItem Header="Make Details" />
+                <MenuItem Header="Make HOM" />
+                <MenuItem Header="Make Sound Occluder"/>
+                <MenuItem Header="Make AI map"/>
+                <Separator />
+                <MenuItem Header="Import error list"/>
+                <MenuItem Header="Export error list"/>
+                <MenuItem Header="Clear error list"/>
+            </MenuItem>
+            <MenuItem Header="Objects">
+                <MenuItem Header="Library editor" />
+                <Separator />
+                <MenuItem Header="Reload objects" />
+                <MenuItem Header="Clean library" />
+                <MenuItem Header="Clip Editor" />
+            </MenuItem>
+            <MenuItem Header="Images">
+                <MenuItem Header="Image editor" />
+                <Separator />
+                <MenuItem Header="Reload textures" />
+                <MenuItem Header="Synchronize textures" />
+                <MenuItem Header="Check new textures" />
+                <Separator />
+                <MenuItem Header="Edit minimap" />
+                <MenuItem Header="SyncTHM" />
+            </MenuItem>
+            <MenuItem Header="Sounds">
+                <MenuItem Header="Sound editor" />
+                <Separator />
+                <MenuItem Header="Synchronize sounds" />
+                <Separator />
+                <MenuItem Header="Refresh environment library" />
+                <MenuItem Header="Refresh environment geometry" />
+            </MenuItem>
+            <MenuItem Header="Light anim editor" />
+            <MenuItem Header="Objects list" />
+            <MenuItem Header="Preferences" />
+        </Menu>
+        <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" MinHeight="20" IsManipulationEnabled="True" Height="37" Width="248" Margin="0,20,0,0">
             <Button Background="Transparent" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Left" MaxHeight="32" MaxWidth="32" MinHeight="16" MinWidth="16">
                 <Image Source="images/undo.png"/>
             </Button>
