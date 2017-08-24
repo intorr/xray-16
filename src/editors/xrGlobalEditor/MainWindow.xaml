@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="xrGlobalEditor">
     <Grid>
-        <Menu Height="20" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalContentAlignment="Stretch">
+        <Menu Height="20" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalContentAlignment="Stretch" FontSize="14">
             <MenuItem Header="File">
                 <MenuItem Header="Open" />
                 <MenuItem Header="Load" />
@@ -78,6 +78,114 @@
             <MenuItem Header="Light anim editor" />
             <MenuItem Header="Objects list" />
             <MenuItem Header="Preferences" />
+        </Menu>
+        <Menu VerticalContentAlignment="Bottom" VerticalAlignment="Bottom" HorizontalContentAlignment="Stretch" FontSize="10">
+            <MenuItem Header="Options">
+                <MenuItem Header="Render">
+                    <MenuItem Header="Quality">
+                        <MenuItem Header="25%" />
+                        <MenuItem Header="50%" />
+                        <MenuItem Header="75%" />
+                        <MenuItem Header="100%" />
+                        <MenuItem Header="125%" />
+                        <MenuItem Header="150%" />
+                        <MenuItem Header="175%" />
+                        <MenuItem Header="200%" />
+                    </MenuItem>
+                    <MenuItem Header="Fill mode">
+                        <MenuItem Header="Point" />
+                        <MenuItem Header="Wireframe" />
+                        <MenuItem Header="Solid" />
+                    </MenuItem>
+                    <MenuItem Header="Shade mode">
+                        <MenuItem Header="Flat" />
+                        <MenuItem Header="Gouraud" />
+                    </MenuItem>
+                    <MenuItem Header="Edged faces" />
+                    <Separator />
+                    <MenuItem Header="HW Render" />
+                    <Separator />
+                    <MenuItem Header="Linear Filter" />
+                    <MenuItem Header="Textures" />
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Draw safe rect" />
+                <MenuItem Header="Draw grid" />
+                <Separator />
+                <MenuItem Header="Weather">
+                    <MenuItem Header="None" />
+                    <Separator />
+                    <MenuItem Header="Reload" />
+                    <Separator />
+                    <MenuItem Header="Properties.." />
+                </MenuItem>
+                <MenuItem Header="Fog" />
+                <Separator />
+                <MenuItem Header="Mute sounds" />
+                <MenuItem Header="Light scene" />
+                <MenuItem Header="Real time" />
+                <MenuItem Header="Device">
+                    <MenuItem Header="Time factor">
+                        <MenuItem Header="0.05" />
+                        <MenuItem Header="0.1" />
+                        <MenuItem Header="0.2" />
+                        <MenuItem Header="0.3" />
+                        <MenuItem Header="0.5" />
+                        <MenuItem Header="1.0" />
+                        <MenuItem Header="3.0" />
+                        <MenuItem Header="5.0" />
+                        <MenuItem Header="10.0" />
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Macro">
+                <MenuItem Header="1: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <MenuItem Header="2: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <MenuItem Header="3: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <MenuItem Header="4: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <MenuItem Header="5: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <MenuItem Header="6: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <MenuItem Header="7: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <MenuItem Header="8: Empty">
+                    <MenuItem Header="Execute" />
+                    <MenuItem Header="Assign" />
+                    <MenuItem Header="Clear" />
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Edit command list.." />
+                <MenuItem Header="Log commands" />
+            </MenuItem>
+            <MenuItem Header="Log" />
+            <MenuItem Header="Stats" />
+            <MenuItem Header="Break"/>
         </Menu>
         <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" MinHeight="20" IsManipulationEnabled="True" Height="37" Width="248" Margin="0,20,0,0">
             <Button Background="Transparent" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Left" MaxHeight="32" MaxWidth="32" MinHeight="16" MinWidth="16">
