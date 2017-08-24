@@ -9,11 +9,10 @@
     <Grid>
         <Menu Height="20" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalContentAlignment="Stretch" FontSize="14">
             <MenuItem Header="File">
-                <MenuItem Header="Open" />
-                <MenuItem Header="Load" />
-                <MenuItem Header="Save" />
-                <MenuItem Header="Save as.." />
-                <MenuItem Header="Clear" />
+                <MenuItem Header="Open" Click="Menu_File_Open_Click" />
+                <MenuItem Header="Save" Click="Menu_File_Save_Click" />
+                <MenuItem Header="Save as.." Click="Menu_File_SaveAs_Click" />
+                <MenuItem Header="Clear" Click="Menu_File_Clear_Click" />
                 <Separator />
                 <MenuItem Header="Open selection.." />
                 <MenuItem Header="Save selection as.." />
@@ -22,7 +21,7 @@
                 <Separator />
                 <MenuItem Header="Open recent.." />
                 <Separator />
-                <MenuItem Header="Exit"/>
+                <MenuItem Header="Exit" Click="Menu_Exit_Click"/>
             </MenuItem>
             <MenuItem Header="Scene">
                 <MenuItem Header="Options" />

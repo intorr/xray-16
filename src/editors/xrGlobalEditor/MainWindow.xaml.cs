@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Win32;
+using XRay.ManagedApi.Core;
 
 namespace xrGlobalEditor
 {
@@ -23,6 +25,48 @@ namespace xrGlobalEditor
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Menu_File_Open_Click(object sender, RoutedEventArgs e)
+        {
+            var openDialog = new OpenFileDialog
+            {
+                RestoreDirectory = true,
+                Multiselect = false,
+                Filter = "All Files (*.*)|*.*"
+            };
+            if (openDialog.ShowDialog() != true)
+                return;
+            var filename = openDialog.FileName;
+            throw new NotImplementedException();
+        }
+
+        private void Menu_File_Save_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Menu_File_SaveAs_Click(object sender, RoutedEventArgs e)
+        {
+            var saveDialog = new SaveFileDialog
+            {
+                RestoreDirectory = true,
+                Filter = "All Files (*.*)|*.*"
+            };
+            if (saveDialog.ShowDialog() != true)
+                return;
+            var filename = saveDialog.FileName;
+            throw new NotImplementedException();
+        }
+
+        private void Menu_File_Clear_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Menu_Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
