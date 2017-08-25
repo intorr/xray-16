@@ -22,9 +22,16 @@ namespace xrGlobalEditor
     /// </summary>
     public partial class MainWindow : Window
     {
+        private WindowLog logWindow;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            logWindow = new WindowLog { Owner = this };
         }
 
         private void Menu_File_Open_Click(object sender, RoutedEventArgs e)
@@ -67,6 +74,14 @@ namespace xrGlobalEditor
         private void Menu_Exit_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void Menu_Log_Click(object sender, RoutedEventArgs e)
+        {
+            if (!logWindow.IsVisible)
+                logWindow.Show();
+            else
+                logWindow.Hide();
         }
     }
 }
