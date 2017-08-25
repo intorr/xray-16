@@ -187,28 +187,30 @@
             <MenuItem Header="Stats" />
             <MenuItem Header="Break"/>
         </Menu>
-        <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" MinHeight="20" IsManipulationEnabled="True" Height="37" Width="248" Margin="0,20,0,0">
-            <Button Background="Transparent" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Left" MaxHeight="32" MaxWidth="32" MinHeight="16" MinWidth="16">
-                <Image Source="images/undo.png"/>
-            </Button>
-            <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
-                <Image Source="images/redo.png"/>
-            </Button>
-            <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
-                <Image Source="images/select.png"/>
-            </Button>
-            <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
-                <Image Source="images/add.png"/>
-            </Button>
-            <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxHeight="32" MaxWidth="32" MinHeight="16" MinWidth="16">
-                <Image Source="images/move.png"/>
-            </Button>
-            <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
-                <Image Source="images/rotate.png"/>
-            </Button>
-            <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinWidth="16" MinHeight="16">
-                <Image Source="images/resize.png"/>
-            </Button>
-        </ToolBar>
+        <ToolBarTray Margin="0,20,0,0" VerticalAlignment="Top">
+            <ToolBar HorizontalAlignment="Left" VerticalAlignment="Top" MinHeight="20" IsManipulationEnabled="True" Height="37" Width="248" >
+                <Button Background="Transparent" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Left" MaxHeight="32" MaxWidth="32" MinHeight="16" MinWidth="16">
+                    <Image Source="images/undo.png"/>
+                </Button>
+                <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
+                    <Image Source="images/redo.png"/>
+                </Button>
+                <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
+                    <Image Source="images/select.png"/>
+                </Button>
+                <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
+                    <Image Source="images/add.png"/>
+                </Button>
+                <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxHeight="32" MaxWidth="32" MinHeight="16" MinWidth="16">
+                    <Image Source="images/move.png"/>
+                </Button>
+                <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinHeight="16" MinWidth="16">
+                    <Image Source="images/rotate.png"/>
+                </Button>
+                <Button Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" VerticalAlignment="Top" MaxWidth="32" MaxHeight="32" MinWidth="16" MinHeight="16">
+                    <Image Source="images/resize.png"/>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
     </Grid>
 </Window>
