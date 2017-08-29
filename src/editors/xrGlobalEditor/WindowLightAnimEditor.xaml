@@ -1,0 +1,84 @@
+<Window x:Class="xrGlobalEditor.WindowLightAnimEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:xrGlobalEditor"
+        mc:Ignorable="d"
+        Title="Light Animation Library" Width="650" Height="250" MinWidth="650" MinHeight="250" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid VerticalAlignment="Top" Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="LA Items:" HorizontalContentAlignment="Right" Grid.Column="0"/>
+            <Label x:Name="laItemsCount" Content="0" HorizontalAlignment="Left" Grid.Column="1"/>
+        </Grid>
+        <ListBox Margin="0,27,0,21" VerticalContentAlignment="Stretch" Grid.Column="0"/>
+        <Grid VerticalAlignment="Bottom" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Add" Grid.Column="0"/>
+            <Button Content="Clone" Grid.Column="1"/>
+            <Button Content="Delete" Grid.Column="2"/>
+            <Button Content="Save" Grid.Column="3"/>
+            <Button Content="Reload" Grid.Column="4"/>
+        </Grid>
+
+        <Grid VerticalAlignment="Bottom" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid VerticalAlignment="Bottom" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="|&lt;&lt;" ToolTip="First frame" Grid.Column="0"/>
+                <TextBox Text="0" AllowDrop="False" IsEnabled="False" Grid.Column="1"/>
+                <TextBox Text="0" AllowDrop="False" IsEnabled="False" Grid.Column="2"/>
+                <Button Content="↑" ToolTip="Next frame" Grid.Column="3"/>
+                <Button Content="↓" ToolTip="Previous frame" Grid.Column="4"/>
+                <TextBox Text="0" AllowDrop="False" IsEnabled="False" Grid.Column="5"/>
+                <Button Content="&gt;&gt;|" ToolTip="Last frame" Grid.Column="6"/>
+            </Grid>
+            <Grid VerticalAlignment="Bottom" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="&lt;-" ToolTip="Move Key left" Grid.Column="0"/>
+                <Button Content="|&lt;&lt;" ToolTip="First Key" Grid.Column="1"/>
+                <Button Content="&lt;" ToolTip="Previous Key" Grid.Column="2"/>
+                <Button Content="+" ToolTip="Add Key" Grid.Column="3"/>
+                <Button Content="-" ToolTip="Remove Key" Grid.Column="4"/>
+                <Button Content="&gt;" ToolTip="Next Key" Grid.Column="5"/>
+                <Button Content="&gt;&gt;|" ToolTip="Last Key" Grid.Column="6"/>
+                <Button Content="-&gt;" ToolTip="Move Key right" Grid.Column="7"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

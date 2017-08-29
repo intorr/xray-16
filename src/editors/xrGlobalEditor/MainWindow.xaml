@@ -74,7 +74,7 @@
                 <MenuItem Header="Refresh environment library" />
                 <MenuItem Header="Refresh environment geometry" />
             </MenuItem>
-            <MenuItem Header="Light anim editor" />
+            <MenuItem Header="Light animation editor" Click="Menu_LightAnimEditor_Click" />
             <MenuItem Header="Objects list" />
             <MenuItem Header="Preferences" />
         </Menu>

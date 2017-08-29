@@ -23,6 +23,7 @@ namespace xrGlobalEditor
     public partial class MainWindow : Window
     {
         private WindowLog logWindow;
+        private WindowLightAnimEditor laEdWindow;
 
         public MainWindow()
         {
@@ -32,6 +33,7 @@ namespace xrGlobalEditor
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             logWindow = new WindowLog { Owner = this };
+            laEdWindow = new WindowLightAnimEditor { Owner = this };
         }
 
         private void Menu_File_Open_Click(object sender, RoutedEventArgs e)
@@ -82,6 +84,14 @@ namespace xrGlobalEditor
                 logWindow.Show();
             else
                 logWindow.Hide();
+        }
+
+        private void Menu_LightAnimEditor_Click(object sender, RoutedEventArgs e)
+        {
+            if (!laEdWindow.IsVisible)
+                laEdWindow.Show();
+            else
+                laEdWindow.Hide();
         }
     }
 }
