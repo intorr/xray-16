@@ -76,11 +76,13 @@ UInt32 WriterBase::ChunkSize::get() { return impl->chunk_size(); }
 void WriterBase::WriteCompressed(void* buffer, UInt32 bufferSize) { impl->w_compressed(buffer, bufferSize); }
 void WriterBase::WriteChunk(UInt32 type, void* buffer, UInt32 bufferSize) { impl->w_chunk(type, buffer, bufferSize); }
 bool WriterBase::CanWrite::get() { return impl->valid(); }
+
 ReaderBase::~ReaderBase()
 {
     delete impl;
     impl = nullptr;
 }
+
 ReaderBase::ReaderBase(::IReader* impl) { this->impl = impl; }
 bool ReaderBase::EndOfStream::get() { return !!impl->eof(); }
 void ReaderBase::Read(void* buffer, int byteCount) { impl->r(buffer, byteCount); }

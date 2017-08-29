@@ -1,8 +1,10 @@
-//---------------------------------------------------------------------------
-
+#pragma once
 #ifndef LightAnimLibraryH
 #define LightAnimLibraryH
-//---------------------------------------------------------------------------
+
+#include "Engine_impexp.h"
+#include "xrCore/xrstring.h"
+
 #ifdef _EDITOR
 #include "editors/xrEProps/FolderLib.h"
 #endif

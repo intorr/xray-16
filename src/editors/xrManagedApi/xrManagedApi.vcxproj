@@ -211,6 +211,7 @@
     <ClInclude Include="core\fs\FS.hpp" />
     <ClInclude Include="core\PostProcessAnimator.hpp" />
     <ClInclude Include="core\Types.hpp" />
+    <ClInclude Include="engine\LightAnimLibrary.hpp" />
     <ClInclude Include="Pch.hpp" />
   </ItemGroup>
   <ItemGroup>
@@ -218,6 +219,7 @@
     <ClCompile Include="core\Core.cpp" />
     <ClCompile Include="core\fs\FS.cpp" />
     <ClCompile Include="core\PostProcessAnimator.cpp" />
+    <ClCompile Include="engine\LightAnimLibrary.cpp" />
     <ClCompile Include="Pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

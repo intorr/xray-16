@@ -7,6 +7,9 @@
     <Filter Include="core\fs">
       <UniqueIdentifier>{51256af0-c709-4484-b27b-a2cf4bf2e101}</UniqueIdentifier>
     </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{8a131537-56d5-42f1-9843-6ad495bf6af8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pch.hpp" />
@@ -22,6 +25,9 @@
     <ClInclude Include="core\Types.hpp">
       <Filter>core</Filter>
     </ClInclude>
+    <ClInclude Include="engine\LightAnimLibrary.hpp">
+      <Filter>engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
@@ -34,6 +40,9 @@
     </ClCompile>
     <ClCompile Include="core\PostProcessAnimator.cpp">
       <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\LightAnimLibrary.cpp">
+      <Filter>engine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

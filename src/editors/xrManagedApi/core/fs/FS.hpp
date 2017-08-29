@@ -12,8 +12,7 @@ namespace ManagedApi
 {
 namespace Core
 {
-public
-ref class WriterBase abstract
+public ref class WriterBase
 {
     internal : ::IWriter* impl;
 
@@ -99,14 +98,15 @@ public:
     void WriteChunk(UInt32 type, void* buffer, UInt32 bufferSize);
 };
 
-public
-ref class ReaderBase abstract
+public ref class ReaderBase
 {
     internal : ::IReader* impl;
-    ReaderBase(::IReader* impl);
+    
 
 public:
+    ReaderBase(::IReader* impl);
     ~ReaderBase();
+
     // eof
     property bool EndOfStream { bool get(); }
     // r
