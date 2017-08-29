@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:xrGlobalEditor"
         mc:Ignorable="d"
-        Title="Log" Width="250" Height="150" MinWidth="250" MinHeight="150" WindowStyle="ToolWindow">
+        Title="Log" Width="250" Height="150" MinWidth="250" MinHeight="150" WindowStyle="ToolWindow" Closing="Window_Closing">
     <Grid>
         <ListBox Margin="0,0,0,20" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
         <Grid VerticalAlignment="Bottom">
