@@ -219,6 +219,7 @@
     <ClCompile Include="core\Core.cpp" />
     <ClCompile Include="core\fs\FS.cpp" />
     <ClCompile Include="core\PostProcessAnimator.cpp" />
+    <ClCompile Include="core\Types.cpp" />
     <ClCompile Include="engine\LightAnimLibrary.cpp" />
     <ClCompile Include="Pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
