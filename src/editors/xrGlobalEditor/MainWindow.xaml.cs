@@ -15,6 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
 using XRay.ManagedApi.Core;
+using XRay.ManagedApi.Core.Log;
 
 namespace xrGlobalEditor
 {
@@ -36,6 +37,7 @@ namespace xrGlobalEditor
         {
             logWindow = new WindowLog { Owner = this };
             laEdWindow = new WindowLightAnimEditor { Owner = this };
+            Logger.Log(Title, " initialized");
         }
 
         private void Menu_File_Open_Click(object sender, RoutedEventArgs e)

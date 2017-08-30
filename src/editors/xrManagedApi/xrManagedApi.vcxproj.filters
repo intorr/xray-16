@@ -28,6 +28,9 @@
     <ClInclude Include="engine\LightAnimLibrary.hpp">
       <Filter>engine</Filter>
     </ClInclude>
+    <ClInclude Include="Log.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
@@ -43,6 +46,9 @@
     </ClCompile>
     <ClCompile Include="engine\LightAnimLibrary.cpp">
       <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>core</Filter>
     </ClCompile>
     <ClCompile Include="core\Types.cpp">
       <Filter>core</Filter>
