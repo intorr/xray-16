@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -37,7 +37,7 @@ namespace xrGlobalEditor
         {
             logWindow = new WindowLog { Owner = this };
             laEdWindow = new WindowLightAnimEditor { Owner = this };
-            Logger.Log(Title, " initialized");
+            Logger.Log(Title, "initialized");
         }
 
         private void Menu_File_Open_Click(object sender, RoutedEventArgs e)
