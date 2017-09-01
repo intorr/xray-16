@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,7 @@ namespace xrGlobalEditor
         public MainWindow()
         {
             InitializeComponent();
+            Core.Initialize(Title, null, true);
         }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
@@ -92,6 +94,11 @@ namespace xrGlobalEditor
                 laEdWindow.Show();
             else
                 laEdWindow.Hide();
+        }
+
+        private void MainWindow_OnClosing(object sender, CancelEventArgs e)
+        {
+            Core.Destroy();
         }
     }
 }

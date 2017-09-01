@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:xrGlobalEditor"
         mc:Ignorable="d"
-        Title="xrGlobalEditor" Loaded="MainWindow_Loaded">
+        Title="xrGlobalEditor" Loaded="MainWindow_Loaded" Closing="MainWindow_OnClosing">
     <Grid>
         <Menu Height="20" VerticalContentAlignment="Top" VerticalAlignment="Top" HorizontalContentAlignment="Stretch" FontSize="14">
             <MenuItem Header="File">
