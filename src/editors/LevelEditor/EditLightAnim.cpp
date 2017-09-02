@@ -8,6 +8,7 @@
 #include "LightAnimLibrary.h"
 #include "editors/ECore/Editor/ColorPicker.h"
 #include "editors/ECore/Editor/ui_main.h"
+#include "xrEngine/LightAnimLibrary.h"
 //---------------------------------------------------------------------------
 #pragma link "multi_edit"
 #pragma link "Gradient"
